@@ -10,12 +10,10 @@
         <div class="details-column">
 
             <header class="journey-header">
-                <h2>•TECH JOURNEY</h2>
-                <h3>•The Beginning</h3>
+                <h2>TECH JOURNEY</h2>
+                <h3>The Beginning</h3>
                 <p>
-                    I first explored coding as a young teen. What started as curiosity
-                    quickly evolved into building real-world products people could
-                    genuinely use. That drive led me to create my first product at 15.
+                   I first learned basic coding as a young teen, but it quickly became more than just a hobby. I wanted to build things people could actually use and benefit from. That drive led me to create my first real product at 15.
                 </p>
             </header>
 
@@ -28,9 +26,7 @@
                              alt="Vet Bookr" 
                              class="card-logo">
                         <p>
-                            A mobile app helping pet parents manage health
-                            records, find vets, track vaccinations and discover
-                            pet-friendly places.
+                           A mobile app that helps pet parents manage health records, Find vets, their vaccinations, pet friendly places and more. 
                         </p>
                         <a href="#" class="btn-know-more">KNOW MORE</a>
                     </div>
@@ -43,8 +39,7 @@
                              alt="100X Engineers" 
                              class="card-logo">
                         <p>
-                            A 6-month cohort with tailored learning pathways,
-                            hands-on projects, and venture-building focus.
+                            The 6-month cohort offers Tailored Learning Pathways and hands-on projects. Choose your track to launch your venture or future-proof your career.
                         </p>
                         <a href="#" class="btn-know-more">KNOW MORE</a>
                     </div>
@@ -57,8 +52,7 @@
                              alt="Ebani Tech Internship" 
                              class="card-logo">
                         <p>
-                            AI-driven internship focused on automation systems,
-                            machine learning applications, and real business execution.
+                            AI-driven internship focused on data intelligence, automation systems, machine learning applications, and performance analytics.
                         </p>
                         <a href="#" class="btn-know-more">KNOW MORE</a>
                     </div>
