@@ -6,19 +6,21 @@
     font-family: 'Arial', sans-serif;
 }
 
-body {
-    background-color: #e0e0e0; /* Light grey background from image */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
-}
-
 .tech-journey-container {
-    max-width: 1100px;
+    background-color: #e0e0e0;
+    padding: 120px 0;
     width: 100%;
 }
+
+.content-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+
 
 .content-wrapper {
     display: flex;
