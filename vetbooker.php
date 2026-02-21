@@ -22,6 +22,7 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
 
     <?php include('./globals/header.php'); ?>
      <?php include('./pages/HomePage/VetBooker/vetbooker.php'); ?>
+     <?php include('./pages/HomePage/VetBooker/gallaryImageSection.php'); ?>
 
   
 
