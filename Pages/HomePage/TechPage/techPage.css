@@ -36,7 +36,7 @@
 }
 
 .main-profile-img {
-    width: 95%;
+    width: 102%;
     height: 100%;       /* Fill the container height */
     object-fit: cover;  /* Prevents stretching/squishing */
     display: block;
@@ -96,7 +96,7 @@
 }
 
 .card-body {
-    padding: 20px;
+    padding: 18px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -105,7 +105,7 @@
 
 .card-logo {
     max-width: 100%;
-    height: 50px;
+    max-height: 40%;
     object-fit: contain;
     margin: 0 auto 15px;
 }
