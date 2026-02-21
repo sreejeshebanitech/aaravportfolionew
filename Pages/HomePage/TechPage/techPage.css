@@ -26,11 +26,14 @@
     display: flex;
     gap: 40px;
     align-items: flex-start;
+   
 }
 
 /* Profile Image Styling */
 .profile-column {
     flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .main-profile-img {
@@ -42,7 +45,7 @@
 
 /* Right Details Column */
 .details-column {
-    flex: 2;
+    flex: 0 0 62%;
 }
 
 .journey-header h2 {
