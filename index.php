@@ -5,6 +5,8 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
 
 include('./globals/meta.php');
 include('./globals/header.php');
+include('./pages/homePage.php');
+
 ?>
 
 <link rel="stylesheet" href="./globals/header.css">
