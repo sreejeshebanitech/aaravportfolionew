@@ -227,7 +227,7 @@
 
 /* LEFT SIDE */
 .journey-left {
-  flex: 1.2; /* Gives slightly more space to the text */
+  flex: 1; /* Gives slightly more space to the text */
 }
 
 .journey-title {
@@ -252,7 +252,7 @@
 }
 
 .journey-phases strong {
-  color: #222;
+  color: #6b6666;
   font-weight: 800;
 }
 
@@ -262,12 +262,18 @@
 }
 
 .journey-main-img {
+  padding-top: 90px;
   width: 100%;
-  height: auto;
-  border-radius: 4px; /* Matches the slightly soft corners in the image */
+  height: 250px;
+  /* object-fit: cover; */
+  /* border-radius: 8px; */
   display: block;
+  /* box-shadow: 0 4px 20px rgba(0,0,0,0.05); */
 }
 
+.journey-right img {
+  height: 100%;
+}
 /* ===============================
    RESPONSIVE (For Tablets/Mobile)
 =================================*/
