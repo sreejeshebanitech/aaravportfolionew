@@ -21,6 +21,7 @@
     display: block; /* Removes tiny gap at bottom */
     padding-top: 100px;
     padding-left: 50px;
+    padding-bottom: 20px;
 }
 
 /* Content Side */
