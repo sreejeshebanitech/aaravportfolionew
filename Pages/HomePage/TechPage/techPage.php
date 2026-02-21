@@ -2,7 +2,7 @@
     <div class="content-wrapper">
 
         <div class="profile-column">
-            <img src="./Assets/ImageAssets/tech/profile.jpg" 
+            <img src="./Assets/ImageAssets/HomePage/aarav.jpeg" 
                  alt="Tech Journey Profile" 
                  class="main-profile-img">
         </div>
@@ -24,7 +24,7 @@
                 <div class="card">
                     <div class="card-header">VET BOOKR</div>
                     <div class="card-body">
-                        <img src="./Assets/ImageAssets/tech/vet-bookr.png" 
+                       <img src="./Assets/ImageAssets/HomePage/verbooker.jpeg" 
                              alt="Vet Bookr" 
                              class="card-logo">
                         <p>
@@ -39,7 +39,7 @@
                 <div class="card">
                     <div class="card-header">100X ENGINEERS</div>
                     <div class="card-body">
-                        <img src="./Assets/ImageAssets/tech/100x.png" 
+                         <img src="./Assets/ImageAssets/HomePage/100x.jpeg" 
                              alt="100X Engineers" 
                              class="card-logo">
                         <p>
@@ -53,7 +53,7 @@
                 <div class="card">
                     <div class="card-header">EBANI INTERNSHIP</div>
                     <div class="card-body">
-                        <img src="./Assets/ImageAssets/tech/ebani.png" 
+                        <img src="./Assets/ImageAssets/HomePage/ebani.jpeg" 
                              alt="Ebani Tech Internship" 
                              class="card-logo">
                         <p>
