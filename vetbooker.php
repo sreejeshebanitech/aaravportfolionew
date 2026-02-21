@@ -11,7 +11,7 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
     <?php include('./globals/meta.php'); ?>
 
     <!-- Global CSS -->
-    <link rel="stylesheet" href="./globals/header.css">
+    <link rel="stylesheet" href="./globals/headerInsidePage.css">
 
     <!-- Section CSS -->
     <link rel="stylesheet" href="./pages/HomePage/HomePage.css">
