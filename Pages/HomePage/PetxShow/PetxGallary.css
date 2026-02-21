@@ -46,7 +46,7 @@
   padding-left: 18px;
 }
 .petex-bullets p::before{
-  content: "•";
+  /* content: "•"; */
   position: absolute;
   left: 0;
   top: 0;
