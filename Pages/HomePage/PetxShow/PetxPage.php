@@ -65,8 +65,12 @@
             </div>
       </div>
 
+  </div>
+   
+</section>
 
-      <section class="journey-page">
+
+<section class="journey-page">
         <div class="journey-wrap">
           
           <div class="journey-left">
@@ -92,7 +96,3 @@
 
         </div>
       </section>
-
-  </div>
-   
-</section>
