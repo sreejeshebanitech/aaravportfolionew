@@ -16,7 +16,7 @@
             <p>Hi, I'm Aarav.</p>
 
             <p>
-                I've always been curious about how things work — whether it's 
+                I've always been curious about how things work  whether it's 
                 the code behind an app, how a machine learning model makes 
                 decisions, or why consistent effort changes outcomes in sports 
                 and life.
