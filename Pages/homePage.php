@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aarav Jadon Puttnam | Portfolio</title>
-    <link rel="stylesheet" href="HomePage.css">
-</head>
+    <link rel="stylesheet" href="./Pages/HomePage.css"></head>
 <body>
 
     <section class="hero-container">
