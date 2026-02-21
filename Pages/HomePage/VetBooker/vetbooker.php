@@ -2,14 +2,14 @@
 
     <!-- Left Image -->
     <div class="vet-image-side">
-        <img src="./Assets/ImageAssets/HomePage/vetbookr-dog.jpg" 
+        <img src="./Assets/ImageAssets/HomePage/Tech/aaravwithDog.png" 
              alt="Aarav with dog - Vet Bookr">
     </div>
 
     <!-- Right Content Card -->
     <div class="vet-content-side">
 
-        <img src="./Assets/ImageAssets/HomePage/vetbookr-logo.png"
+        <img src="./Assets/ImageAssets/HomePage/vetbooker.png"
              alt="Vet Bookr Logo"
              class="vet-logo">
 
