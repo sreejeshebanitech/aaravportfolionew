@@ -7,4 +7,4 @@ include('./globals/meta.php');
 include('./globals/header.php');
 ?>
 
-<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="./globals/header.css">
