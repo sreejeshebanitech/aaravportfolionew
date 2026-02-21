@@ -28,7 +28,7 @@
                         <p>
                            A mobile app that helps pet parents manage health records, Find vets, their vaccinations, pet friendly places and more. 
                         </p>
-                        <a href="#" class="btn-know-more">KNOW MORE</a>
+                        <a href="vetbooker.php" class="btn-know-more">KNOW MORE</a>
                     </div>
                 </div>
 
@@ -41,7 +41,7 @@
                         <p>
                             The 6-month cohort offers Tailored Learning Pathways and hands-on projects. Choose your track to launch your venture or future-proof your career.
                         </p>
-                        <a href="#" class="btn-know-more">KNOW MORE</a>
+                        <a href="/100x.php" class="btn-know-more">KNOW MORE</a>
                     </div>
                 </div>
 
@@ -54,7 +54,7 @@
                         <p>
                             AI-driven internship focused on data intelligence, automation systems, machine learning applications, and performance analytics.
                         </p>
-                        <a href="#" class="btn-know-more">KNOW MORE</a>
+                        <a href="internship.php" class="btn-know-more">KNOW MORE</a>
                     </div>
                 </div>
 
