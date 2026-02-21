@@ -1,39 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aarav Jadon Puttnam | Portfolio</title>
-    <link rel="stylesheet" href="./Pages/HomePage/HomePage.css"></head>
-</head>
-<body>
-    <section class="hero-container">
-        <!-- Background image (full bleed) -->
-        <div class="image-side">
-            <img src="../Assets/ImageAssets/GlobalImages/gloablImageAssets.png" alt="Aarav Jadon Puttnam background">
-        </div>
+<section class="hero-container">
 
-        <!-- Floating white card with content -->
-        <div class="content-side">
-            <h1 class="main-title">Builder. Athlete. Learner.</h1>
-            <h2 class="name">Aarav Jadon Puttnam</h2>
+    <!-- Background image -->
+    <div class="image-side">
+        <img src="./Assets/ImageAssets/GlobalImages/gloablImageAssets.png" 
+             alt="Aarav Jadon Puttnam background">
+    </div>
 
-            <div class="bio-section">
-                <h3>A Little About Me</h3>
-                <p>Hi, I'm Aarav.</p>
-                <p>
-                    I've always been curious about how things work, whether it's the code behind an app, 
-                    how a machine learning model makes decisions, or why consistent effort changes outcomes 
-                    in sports and life. That curiosity gradually became a commitment: I started coding 
-                    when I was 13, and I began professional sports training around the same time.
-                </p>
-                <p>
-                    Over the years, both technology and athletics shaped how I think, act, and understand 
-                    challenges. Today, I'm focused on learning AI, data science, product thinking, and 
-                    business, because I want to build tools that actually solve real problems.
-                </p>
-            </div>
+    <!-- Floating white card -->
+    <div class="content-side">
+        <h1 class="main-title">Builder. Athlete. Learner.</h1>
+        <h2 class="name">Aarav Jadon Puttnam</h2>
+
+        <div class="bio-section">
+            <h3>A Little About Me</h3>
+            <p>Hi, I'm Aarav.</p>
+
+            <p>
+                I've always been curious about how things work — whether it's 
+                the code behind an app, how a machine learning model makes 
+                decisions, or why consistent effort changes outcomes in sports 
+                and life.
+            </p>
+
+            <p>
+                That curiosity became commitment. I started coding at 13, 
+                alongside professional sports training. Today, I focus on AI, 
+                data science, product thinking, and business to build 
+                solutions that solve real-world problems.
+            </p>
         </div>
-    </section>
-</body>
-</html>
+    </div>
+
+</section>
