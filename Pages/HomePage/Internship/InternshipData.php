@@ -86,7 +86,8 @@
 
 
 
-
+    <br>
+</br>
       <p class="camera-intro">
         And on another occasion I shot both video and photo content for another client which is an international school.
       </p>
