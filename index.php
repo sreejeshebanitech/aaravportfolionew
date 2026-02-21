@@ -16,7 +16,7 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
     <!-- Section CSS -->
     <link rel="stylesheet" href="./pages/HomePage/HomePage.css">
     <link rel="stylesheet" href="./pages/HomePage/TechPage/techPage.css">
-    <link rel="stylesheet" href="./pages/HomePage/SportsPage/sportsPage.css">
+    <link rel="stylesheet" href="./Pages/HomePage/SportsPage/sportsPage.css">
 
 </head>
 <body>
@@ -26,7 +26,7 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
     <!-- Sections -->
     <?php include('./pages/HomePage/homePage.php'); ?>
     <?php include('./pages/HomePage/TechPage/techPage.php'); ?>
-    <?php include('./pages/HomePage/SportsPage/techPage.php'); ?>
+    <?php include('./pages/HomePage/SportsPage/sportsPage.php'); ?>
 
 </body>
 </html>

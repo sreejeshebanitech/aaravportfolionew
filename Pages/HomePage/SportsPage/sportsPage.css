@@ -1,144 +1,120 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-}
-
-.tech-journey-container {
-    background-color: #e0e0e0;
+/* ===============================
+   SPORTS SECTION
+=================================*/
+.sports-section {
+    background: #e6e6e6;
     padding: 120px 0;
     width: 100%;
 }
 
-.content-wrapper {
-    max-width: 1100px;
+.sports-wrapper {
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 30px;
     display: flex;
-    gap: 40px;
-    align-items: stretch; /* Changed from flex-start */
-}
-
-
-
-.content-wrapper {
-    display: flex;
-    gap: 40px;
+    gap: 70px;
     align-items: flex-start;
-   
 }
 
-/* Profile Image Styling */
-.profile-column {
+/* ===============================
+   IMAGE
+=================================*/
+.sports-image {
     flex: 1;
-    display: flex;
 }
 
-.main-profile-img {
-    width: 102%;
-    height: 100%;       /* Fill the container height */
-    object-fit: cover;  /* Prevents stretching/squishing */
-    display: block;
-    box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+.sports-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
 }
 
-/* Right Details Column */
-.details-column {
-    flex: 0 0 62%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* This centers the text vertically if the image is taller */
+/* ===============================
+   CONTENT
+=================================*/
+.sports-content {
+    flex: 1.2;
 }
 
-.journey-header h2 {
-    font-size: 1.8rem;
+.sports-content h2 {
+    font-size: 2.3rem;
     font-weight: 800;
-    color: #333;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    color: #222;
 }
 
-.journey-header h3 {
-    font-size: 1.4rem;
-    color: #888;
-    margin-bottom: 15px;
+.sports-description {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 60px;
 }
 
-.journey-header p {
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    font-size: 0.95rem;
-}
-
-/* Card Grid Styling */
-.cards-grid {
+/* ===============================
+   CARDS
+=================================*/
+.sports-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
 }
 
-.card {
-    background: #fff;
+.sports-card {
+    background: #ffffff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
     display: flex;
     flex-direction: column;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-.card-header {
-    background-color: #333;
+.sports-card-header {
+    background: #333;
     color: #fff;
-    padding: 10px;
-    font-size: 0.8rem;
-    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
     letter-spacing: 1px;
 }
 
-.card-body {
-    padding: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
+.sports-card-body {
+    padding: 30px 25px 35px;
+    text-align: center;
 }
 
-.card-logo {
-    max-width: 100%;
-    max-height: 40%;
-    object-fit: contain;
-    margin: 0 auto 15px;
-}
-
-.card-body p {
-    font-size: 0.8rem;
+.sports-card-body p {
+    font-size: 0.95rem;
     color: #555;
-    line-height: 1.5;
-    margin-bottom: 20px;
+    line-height: 1.7;
+    margin-bottom: 30px;
 }
 
-/* Button Styling */
-.btn-know-more {
-    background-color: #333;
+/* BUTTON */
+.sports-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #333;
     color: #fff;
     text-decoration: none;
     font-size: 0.75rem;
-    font-weight: bold;
-    padding: 8px 0;
-    display: block;
-    transition: background 0.3s;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: background 0.3s ease;
 }
 
-.btn-know-more:hover {
-    background-color: #555;
+.sports-btn:hover {
+    background: #555;
 }
 
-/* Responsive adjustments */
-@media (max-width: 900px) {
-    .content-wrapper {
+/* ===============================
+   RESPONSIVE
+=================================*/
+@media (max-width: 992px) {
+    .sports-wrapper {
         flex-direction: column;
+        gap: 60px;
     }
-    .cards-grid {
+
+    .sports-cards {
         grid-template-columns: 1fr;
     }
 }

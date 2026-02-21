@@ -1,66 +1,51 @@
-<section class="tech-journey-container">
-    <div class="content-wrapper">
+<section class="sports-section">
+  <div class="sports-wrapper">
 
-        <div class="profile-column">
-            <img src="./Assets/ImageAssets/HomePage/aarav.jpeg" 
-                 alt="Tech Journey Profile" 
-                 class="main-profile-img">
-        </div>
-
-        <div class="details-column">
-
-            <header class="journey-header">
-                <h2>TECH JOURNEY</h2>
-                <h3>The Beginning</h3>
-                <p>
-                   I first learned basic coding as a young teen, but it quickly became more than just a hobby. I wanted to build things people could actually use and benefit from. That drive led me to create my first real product at 15.
-                </p>
-            </header>
-
-            <div class="cards-grid">
-
-                <div class="card">
-                    <div class="card-header">VET BOOKR</div>
-                    <div class="card-body">
-                       <img src="./Assets/ImageAssets/HomePage/vetbooker.png" 
-                             alt="Vet Bookr" 
-                             class="card-logo">
-                        <p>
-                           A mobile app that helps pet parents manage health records, Find vets, their vaccinations, pet friendly places and more. 
-                        </p>
-                        <a href="vetbooker.php" class="btn-know-more">KNOW MORE</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header">100X ENGINEERS</div>
-                    <div class="card-body">
-                         <img src="./Assets/ImageAssets/HomePage/100x.jpeg" 
-                             alt="100X Engineers" 
-                             class="card-logo">
-                        <p>
-                            The 6-month cohort offers Tailored Learning Pathways and hands-on projects. Choose your track to launch your venture or future-proof your career.
-                        </p>
-                        <a href="/100x.php" class="btn-know-more">KNOW MORE</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header">EBANI INTERNSHIP</div>
-                    <div class="card-body">
-                        <img src="./Assets/ImageAssets/HomePage/ebani.png" 
-                             alt="Ebani Tech Internship" 
-                             class="card-logo">
-                        <p>
-                            AI-driven internship focused on data intelligence, automation systems, machine learning applications, and performance analytics.
-                        </p>
-                        <a href="internship.php" class="btn-know-more">KNOW MORE</a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
+    <!-- LEFT IMAGE -->
+    <div class="sports-image">
+      <img src="./Assets/ImageAssets/Sports/sports.jpeg" alt="Sports Journey">
     </div>
+
+    <!-- RIGHT CONTENT -->
+    <div class="sports-content">
+
+      <h2>SPORTS JOURNEY</h2>
+
+      <p class="sports-description">
+        Sports have been one of the strongest foundations in my life. Long before achievements and medals, they taught me discipline, consistency, and how to handle both wins and setbacks. Training early in the mornings, competing under pressure, and balancing academics alongside intense practice shaped not just my physical strength, but my mindset. My sports journey has played a big role in building the focus and resilience I carry into every other part of my life.
+      </p>
+
+      <div class="sports-cards">
+
+        <!-- BADMINTON -->
+        <div class="sports-card">
+          <div class="sports-card-header">BADMINTON</div>
+          <div class="sports-card-body">
+            <p>
+              Falling in love with badminton at a young age, I trained under
+              national and international coaches, competed at state and
+              national levels, and developed grit, discipline, and passion
+              that shaped my character.
+            </p>
+            <a href="badminton.php" class="sports-btn">KNOW MORE</a>
+          </div>
+        </div>
+
+        <!-- POWERLIFTING -->
+        <div class="sports-card">
+          <div class="sports-card-header">POWERLIFTING</div>
+          <div class="sports-card-body">
+            <p>
+              Through four years of disciplined training, I became a state
+              and national gold medalist in powerlifting, setting records
+              and proving to myself that strength is built through focus,
+              patience, and relentless consistency.
+            </p>
+            <a href="powerlifting.php" class="sports-btn">KNOW MORE</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </section>
