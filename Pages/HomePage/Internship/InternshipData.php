@@ -127,8 +127,8 @@
 
     <div class="experience-nav-row">
       <a href="vetbooker.php" class="experience-btn">Vet Bookr</a>
-      <a href="Petx.php" class="experience-btn">Petex Experience</a>
-      <a href="AIR.php" class="experience-btn">All India Radio</a>
+       <a href="Mars.php" class="experience-btn">Mars International</a>
+     <a href="100x.php" class="experience-btn">100X Engineers</a>
     </div>
 
   </div>
