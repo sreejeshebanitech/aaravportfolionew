@@ -23,6 +23,7 @@
   font-size: 22px;
   line-height: 1.55;
   color: #555;
+  padding-top: 25px;
   margin: 0 0 36px 0;
 }
 
@@ -74,19 +75,19 @@
 
 /* Individual image card */
 .vet-hshot{
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
-  background: #fff;
+  background: transparent;     /* no white card background */
   box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+  aspect-ratio: 9 / 16;        /* phone ratio */
+  height: 100%;                /* fills available row height */
 }
 
 .vet-hshot img{
   width: 100%;
-  height: 320px;
-  object-fit: cover;
+  height: 100%;
+  object-fit: cover;   /* removes white space */
   display: block;
-  transform: scale(1);
-  transition: transform 250ms ease;
 }
 
 .vet-hshot:hover img{
