@@ -22,7 +22,7 @@
                 <div class="card">
                     <div class="card-header">VET BOOKR</div>
                     <div class="card-body">
-                       <img src="./Assets/ImageAssets/HomePage/verbooker.jpeg" 
+                       <img src="./Assets/ImageAssets/HomePage/vetbooker.png" 
                              alt="Vet Bookr" 
                              class="card-logo">
                         <p>
@@ -48,7 +48,7 @@
                 <div class="card">
                     <div class="card-header">EBANI INTERNSHIP</div>
                     <div class="card-body">
-                        <img src="./Assets/ImageAssets/HomePage/ebani.jpeg" 
+                        <img src="./Assets/ImageAssets/HomePage/ebani.png" 
                              alt="Ebani Tech Internship" 
                              class="card-logo">
                         <p>
