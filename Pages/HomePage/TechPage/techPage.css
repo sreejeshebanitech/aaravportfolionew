@@ -36,7 +36,7 @@
 }
 
 .main-profile-img {
-    width: 100%;
+    width: 95%;
     height: 100%;       /* Fill the container height */
     object-fit: cover;  /* Prevents stretching/squishing */
     display: block;
