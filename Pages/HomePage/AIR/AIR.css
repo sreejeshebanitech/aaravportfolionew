@@ -1,113 +1,193 @@
 /* ===============================
-   RADIO SECTION STYLING
+   RADIO SECTION - REVISED ALIGNMENT
 =================================*/
+
 .radio-section {
   width: 100%;
   background: #fff;
-  padding: 60px 0 100px 0;
-  font-family: sans-serif;
+  padding: 60px 0 80px 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 }
 
 .radio-container {
-  max-width: 1100px; /* Narrower container matches the image better */
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 30px;
 }
 
-/* TOP GRID: Text and Studio Wide */
+/* ----- TOP GRID (Text + Studio Image) ----- */
 .radio-top-grid {
-  display: flex;
-  align-items: flex-start;
-  gap: 50px;
-  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 60px;
+  margin-bottom: 60px;
+  align-items: start;
 }
 
 .radio-text-top {
-  flex: 1;
+  padding-top: 20px;
 }
 
 .radio-title {
-  font-size: 28px;
-  font-weight: 700;
-  color: #555;
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
   line-height: 1.2;
   margin: 0 0 20px 0;
+  letter-spacing: -0.02em;
 }
 
 .radio-text-top p {
   font-size: 16px;
-  line-height: 1.6;
-  color: #777;
-  max-width: 450px;
+  line-height: 1.7;
+  color: #555;
+  margin: 0;
 }
 
 .radio-img-large {
-  flex: 1.3;
+  width: 100%;
 }
 
 .radio-img-large img {
   width: 100%;
+  height: auto;
   display: block;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* BOTTOM GRID: Staggered Collage */
+/* ----- BOTTOM GRID (Collage) ----- */
 .radio-bottom-grid {
   display: grid;
-  grid-template-columns: 220px 1fr 280px; /* Exact width ratios for collage */
+  grid-template-columns: 280px 1fr 320px;
   gap: 30px;
-  align-items: end; /* Fixes bottom alignment for the reflection text */
+  align-items: end;
 }
 
-/* Col 1: Entrance Image (Left) */
+/* LEFT COLUMN - Entrance Image */
+.radio-col-1 {
+  margin-bottom: 0;
+}
+
 .radio-col-1 img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Col 2: Middle Stack */
+/* MIDDLE COLUMN - Stacked Images */
 .radio-col-2 {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 25px;
 }
 
-.img-script-wrap {
+.script-box {
   width: 100%;
-  display: flex;
-  justify-content: center; /* Centers the script image in the middle col */
 }
 
 .img-script {
-  width: 85%; /* Matches the slightly smaller script image look */
+  width: 100%;
   height: auto;
   display: block;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .img-team {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Col 3: Reflection Text (Right) */
+/* RIGHT COLUMN - Reflection Text */
 .radio-col-3 {
-  padding-bottom: 10px; /* Fine-tune to match the team image bottom */
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
 }
 
 .reflection-text {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #888;
-  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+  margin: 0;
+  font-style: italic;
+  border-left: 4px solid #4CAF50;
+  padding-left: 25px;
+  background: #f9f9f9;
+  padding: 20px 20px 20px 25px;
+  border-radius: 0 8px 8px 0;
 }
 
-/* RESPONSIVE FIXES */
-@media (max-width: 992px) {
-  .radio-top-grid { flex-direction: column; }
+/* ----- RESPONSIVE ----- */
+@media (max-width: 1024px) {
   .radio-bottom-grid {
     grid-template-columns: 1fr 1fr;
-    align-items: start;
+    gap: 25px;
   }
-  .radio-col-3 { grid-column: span 2; margin-top: 20px;}
+  
+  .radio-col-3 {
+    grid-column: 1 / -1;
+    padding-bottom: 0;
+  }
+  
+  .reflection-text {
+    border-left: none;
+    border-top: 4px solid #4CAF50;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 0 0 8px 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .radio-top-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .radio-text-top {
+    padding-top: 0;
+  }
+  
+  .radio-bottom-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  
+  .radio-col-3 {
+    grid-column: auto;
+  }
+  
+  .reflection-text {
+    border-left: none;
+    border-top: 4px solid #4CAF50;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 0 0 8px 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .radio-container {
+    padding: 0 20px;
+  }
+  
+  .radio-title {
+    font-size: 26px;
+  }
+  
+  .radio-text-top p,
+  .reflection-text {
+    font-size: 15px;
+  }
 }
