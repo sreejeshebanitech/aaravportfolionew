@@ -19,6 +19,8 @@
     height: 80%;
     object-fit: cover;
     display: block; /* Removes tiny gap at bottom */
+    padding-top: 100px;
+    padding-left: 50px;
 }
 
 /* Content Side */
