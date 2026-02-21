@@ -9,19 +9,19 @@
         </p>
       </div>
       <div class="radio-img-large">
-        <img src="./Assets/ImageAssets/Radio/Studio_Wide.jpg" alt="Live Interview Studio">
+        <img src="./Assets/ImageAssets/AIR/Radios2.jpeg" alt="Live Interview Studio">
       </div>
     </div>
 
     <div class="radio-bottom-grid">
       
       <div class="radio-col-1">
-        <img src="./Assets/ImageAssets/Radio/Entrance.jpg" alt="AIR Entrance">
+        <img src="./Assets/ImageAssets/AIR/Radio (3).jpeg" alt="AIR Entrance">
       </div>
 
       <div class="radio-col-2">
-        <img class="img-script" src="./Assets/ImageAssets/Radio/Script_Standing.jpg" alt="Standing with Scripts">
-        <img class="img-team" src="./Assets/ImageAssets/Radio/Team_Smile.jpg" alt="With the Interviewer">
+        <img class="img-script" src="./Assets/ImageAssets/AIR/Radio (1).jpeg" alt="Standing with Scripts">
+        <img class="img-team" src="./Assets/ImageAssets/AIR/Media2.jpeg" alt="With the Interviewer">
       </div>
 
       <div class="radio-col-3">
