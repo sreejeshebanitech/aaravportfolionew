@@ -2,7 +2,7 @@
 
     <!-- Left Image -->
     <div class="vet-image-side">
-        <img src="./Assets/ImageAssets/HomePage/Tech/aaravwithDog.png" 
+        <img src="./Assets/ImageAssets/Tech/aaravwithDog.png" 
              alt="Aarav with dog - Vet Bookr">
     </div>
 
