@@ -31,7 +31,7 @@
         </div>
 
         <div class="image-side">
-            <img src="assets/profile.jpg" alt="Aarav Jadon Puttnam">
+            <img src="" alt="Aarav Jadon Puttnam">
         </div>
     </section>
 
