@@ -50,11 +50,11 @@
         Vet Bookr is a journey I will always cherish as it’s my very first.
       </p>
     </div>
-    
+
     <div class="vet-button-row">
-        <a href="#" class="vet-btn">Petex Experience</a>
-        <a href="#" class="vet-btn">Mars International</a>
-        <a href="#" class="vet-btn">All India Radio</a>
+        <a href="Petx.php" class="vet-btn">Petex Experience</a>
+        <a href="Mars.php" class="vet-btn">Mars International</a>
+        <a href="AIR.php" class="vet-btn">All India Radio</a>
       </div>
 
   </div>
