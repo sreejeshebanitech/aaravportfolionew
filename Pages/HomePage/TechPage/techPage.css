@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #e0e0e0; /* Light grey background from image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.tech-journey-container {
+    max-width: 1100px;
+    width: 100%;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* Profile Image Styling */
+.profile-column {
+    flex: 1;
+}
+
+.main-profile-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Right Details Column */
+.details-column {
+    flex: 2;
+}
+
+.journey-header h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.journey-header h3 {
+    font-size: 1.4rem;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.journey-header p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+}
+
+/* Card Grid Styling */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.card-logo {
+    max-width: 100%;
+    height: 50px;
+    object-fit: contain;
+    margin: 0 auto 15px;
+}
+
+.card-body p {
+    font-size: 0.8rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn-know-more {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 8px 0;
+    display: block;
+    transition: background 0.3s;
+}
+
+.btn-know-more:hover {
+    background-color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+}
