@@ -57,7 +57,7 @@
             </div>
 
             <div class="petex-strip-item">
-              <img src="./Assets/ImageAssets/Petx/Social4.webp" alt="PETEX moment 4">
+              <img src="./Assets/ImageAssets/Petx/WithSomeone.jpeg" alt="PETEX moment 4">
             </div>
 
             <div class="petex-strip-item">
