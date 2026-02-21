@@ -31,7 +31,7 @@
         </div>
 
         <div class="image-side">
-            <img src="" alt="Aarav Jadon Puttnam">
+            <img src="../Assets/ImageAssets/GlobalImages/gloablImageAssets.png" alt="Aarav Jadon Puttnam">
         </div>
     </section>
 
