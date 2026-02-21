@@ -27,17 +27,17 @@
       <!-- Group 3 (4 images) -->
       <div class="vet-hrow-group vet-hrow-g3">
         <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/8.webp" alt="Vet Bookr screen 9"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/11.webp" alt="Vet Bookr screen 10"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/11.webp" alt="Vet Bookr screen 11"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/12.webp" alt="Vet Bookr screen 12"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/11.jpg.jpeg" alt="Vet Bookr screen 10"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/11.jpg.jpeg" alt="Vet Bookr screen 11"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/12.jpg.jpeg" alt="Vet Bookr screen 12"></div>
       </div>
 
       <!-- Group 4 (4 images) -->
       <div class="vet-hrow-group vet-hrow-g4">
         <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/9.webp" alt="Vet Bookr screen 13"></div>
         <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/10.webp" alt="Vet Bookr screen 14"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/13.webp" alt="Vet Bookr screen 15"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/14.webp" alt="Vet Bookr screen 16"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/13.jpg.jpeg" alt="Vet Bookr screen 15"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/14.jpg.jpeg" alt="Vet Bookr screen 16"></div>
       </div>
 
     </div>
