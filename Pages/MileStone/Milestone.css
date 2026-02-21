@@ -4,7 +4,7 @@
 .milestones-section {
   width: 100%;
   background: #f2f2f2;
-  padding: 100px 20px;
+  padding: 110px 20px;
 }
 
 .milestones-container {
@@ -13,7 +13,9 @@
   text-align: center;
 }
 
-/* Title */
+/* ===============================
+   TITLE + SUBTITLE
+=================================*/
 .milestones-title {
   font-size: 34px;
   font-weight: 700;
@@ -21,55 +23,84 @@
   margin-bottom: 15px;
 }
 
-/* Subtitle */
 .milestones-subtitle {
   font-size: 18px;
   color: #666;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
+  line-height: 1.6;
 }
 
 /* ===============================
    TIMELINE
 =================================*/
+
 .timeline {
-  position: relative;
-  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px; /* space between milestone blocks */
 }
 
-/* Vertical Line */
-.timeline::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 100%;
-  background: #bbb;
-}
-
-/* Timeline Item */
+/* Each milestone */
 .timeline-item {
   position: relative;
-  max-width: 700px;
-  margin: 0 auto 50px auto;
-  font-size: 20px;
-  color: #333;
-  line-height: 1.7;
-  padding: 0 20px;
+  text-align: center;
+  max-width: 760px;
+  padding: 0 15px;
 }
 
-/* Responsive */
+/* Text styling */
+.timeline-item p {
+  font-size: 19px;
+  line-height: 1.75;
+  color: #333;
+  margin: 0;
+}
+
+/* ===============================
+   CONNECTOR LINE (Between Items Only)
+=================================*/
+.timeline-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -40px;         /* perfectly centered in gap */
+  width: 3px;
+  height: 35px;
+  background: #27ae60;
+  border-radius: 3px;
+}
+
+/* ===============================
+   RESPONSIVE
+=================================*/
 @media (max-width: 768px) {
+
+  .milestones-section {
+    padding: 80px 18px;
+  }
+
   .milestones-title {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .milestones-subtitle {
     font-size: 16px;
+    margin-bottom: 50px;
   }
 
-  .timeline-item {
-    font-size: 17px;
+  .timeline {
+    gap: 55px;
+  }
+
+  .timeline-item p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .timeline-item:not(:last-child)::after {
+    height: 28px;
+    bottom: -32px;
   }
 }
