@@ -87,7 +87,7 @@
           </div>
 
           <div class="journey-right">
-            <img src="./Assets/ImageAssets/Journey/Meeting.jpg" alt="Meeting and discussing Vet Bookr" class="journey-main-img">
+            <img src="./Assets/ImageAssets/Petx/ShowCase.webp" alt="Meeting and discussing Vet Bookr" class="journey-main-img">
           </div>
 
         </div>
