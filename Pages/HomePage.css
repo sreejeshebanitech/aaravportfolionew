@@ -1,0 +1,93 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero-container {
+    display: flex;
+    min-height: 100vh;
+    align-items: stretch; /* Makes both sides equal height */
+}
+
+/* Left Content Area */
+.content-side {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.bio-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.bio-section p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    max-width: 500px;
+}
+
+/* Right Image Area */
+.image-side {
+    flex: 1;
+    overflow: hidden;
+}
+
+.image-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This crops the image to fill the space like your reference */
+    display: block;
+}
+
+/* --- MOBILE RESPONSIVENESS --- */
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column-reverse; /* Puts image on top, text on bottom */
+    }
+
+    .content-side {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .bio-section p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .image-side {
+        height: 400px; /* Fixed height for image on mobile */
+    }
+
+    .main-title {
+        font-size: 1.8rem;
+    }
+}
