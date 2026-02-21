@@ -15,7 +15,7 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
 
     <!-- Section CSS -->
     <link rel="stylesheet" href="./pages/HomePage/HomePage.css">
-    <link rel="stylesheet" href="./pages/HomePage/Mars/Mars.css">
+    <link rel="stylesheet" href="./pages/HomePage/Internship/InternshiPColor.css">
 
 
   
@@ -24,7 +24,7 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
 <body>
 
     <?php include('./globals/header.php'); ?>
-     <?php include('./pages/HomePage/Mars/Mars.php'); ?>
+     <?php include('./pages/HomePage/Internship/InternshipData.php'); ?>
 
   
 
