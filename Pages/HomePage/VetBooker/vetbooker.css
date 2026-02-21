@@ -16,12 +16,12 @@
 
 .vet-image-side img {
     width: 100%;
-    height: 80%;
+    height: 86%;
     object-fit: cover;
     display: block; /* Removes tiny gap at bottom */
     padding-top: 100px;
     padding-left: 50px;
-    padding-bottom: 20px;
+    
 }
 
 /* Content Side */

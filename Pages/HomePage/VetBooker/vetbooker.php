@@ -16,22 +16,21 @@
 
         <div class="vet-description">
             <h3>The Problem That Started It</h3>
-            <p>
-                When I moved to Singapore, our pet’s vaccination and
-                health records were difficult to retrieve. That experience
-                revealed a broader challenge most pet parents face:
-                managing scattered health information.
+           
+                <p>
+              When I moved to Singapore with my family, we were not able to take our pet along because her vaccination and health records could not be found. That experience highlighted how disorganised pet health information can naturally become — a challenge faced by many pet parents. It became clear that there was a need for a digital solution where pet parents could securely store, manage, and share important health details.
             </p>
+
             <p>
-                At 15, I designed and deployed <strong>Vet Bookr</strong>,
-                a mobile app that allows pet parents to manage
-                health records, track vaccinations, find nearby services,
-                and connect with other pet owners.
+                At 15, I designed, built, and deployed <strong>Vet Bookr</strong>, a mobile app that helps pet parents manage health records and vaccinations, discover nearby vets and pharmacies, explore pet-friendly places, and connect with other pet owners.
             </p>
+
             <p>
-                The app launched on both Android and iOS, crossing
-                150+ downloads in the first week purely through organic
-                adoption.
+                The app went live on both Android and iOS, and within the first week, it crossed 150 downloads purely through organic interest and early adopters trying it out.
+            </p>
+
+            <p>
+                Vet Bookr opened the gates to many more incredible learnings.
             </p>
         </div>
     </div>
