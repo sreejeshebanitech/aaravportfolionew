@@ -32,18 +32,19 @@
         <!-- MAIN IMAGE -->
         <img
           class="petex-photo"
-          src="./Assets/ImageAssets/Petex/petex_expo.jpg"
+          src="./Assets/ImageAssets/Petx/Social4.webp"
           alt="PETEX expo moment"
         />
 
         <!-- OVERLAY LOGO -->
         <img
           class="petex-logo"
-          src="./Assets/ImageAssets/Petex/petex_logo.png"
+          src="./Assets/ImageAssets/Petx/PETEX LOGO.jpg.jpeg"
           alt="PETEX India logo"
         />
       </div>
     </div>
 
   </div>
+   
 </section>
