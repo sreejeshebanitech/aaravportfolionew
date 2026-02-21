@@ -50,6 +50,6 @@
     <div class="vet-button-row">
             <a href="vetbooker.php" class="vet-btn">Vet Bookr</a>
             <a href="Internship.php" class="vet-btn">Ebani Internship</a>
-            <a href="Petx.php" class="vet-btn">Pext Experience</a>
+            <a href="Petx.php" class="vet-btn">Petex Experience</a>
       </div>
 </section>
