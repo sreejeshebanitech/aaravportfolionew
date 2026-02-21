@@ -33,7 +33,7 @@
       <!-- Right column: Reflection text - FIXED POSITIONING -->
       <div class="radio-col-3">
         <p class="reflection-text">
-          I learned how important it is to communicate clearly and honestly. What meant the most to me was when the host mentioned that my journey could inspire other students listening - that moment truly stayed with me.
+          I learned how important it is to communicate clearly and honestly. What meant the most to me was when the host mentioned that my journey could inspire other students listening  that moment truly stayed with me.
         </p>
       </div>
       
