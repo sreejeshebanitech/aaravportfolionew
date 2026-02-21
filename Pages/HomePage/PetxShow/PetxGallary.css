@@ -111,3 +111,65 @@
     padding: 8px;
   }
 }
+
+
+/* ===============================
+   PETEX IMAGE STRIP
+=================================*/
+
+.petex-strip{
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.petex-strip-item{
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  background: #f4f4f4;
+  transition: transform 0.3s ease;
+}
+
+.petex-strip-item img{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.petex-strip-item:hover{
+  transform: translateY(-6px);
+}
+
+
+/* ===============================
+   RESPONSIVE
+=================================*/
+
+@media (max-width: 1100px){
+  .petex-strip{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 700px){
+  .petex-strip{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .petex-strip-item img{
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px){
+  .petex-strip{
+    grid-template-columns: 1fr;
+  }
+
+  .petex-strip-item img{
+    height: 220px;
+  }
+}
