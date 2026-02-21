@@ -10,34 +10,34 @@
 
       <!-- Group 1 (4 images) -->
       <div class="vet-hrow-group vet-hrow-g1">
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group1/1.png" alt="Vet Bookr screen 1"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group1/2.png" alt="Vet Bookr screen 2"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group1/3.png" alt="Vet Bookr screen 3"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group1/4.png" alt="Vet Bookr screen 4"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/1.webp" alt="Vet Bookr screen 1"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/2.webp" alt="Vet Bookr screen 2"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/3.webp" alt="Vet Bookr screen 3"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/4.webp" alt="Vet Bookr screen 4"></div>
       </div>
 
       <!-- Group 2 (4 images) -->
       <div class="vet-hrow-group vet-hrow-g2">
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group2/1.png" alt="Vet Bookr screen 5"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group2/2.png" alt="Vet Bookr screen 6"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group2/3.png" alt="Vet Bookr screen 7"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group2/4.png" alt="Vet Bookr screen 8"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/5.webp" alt="Vet Bookr screen 5"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/1.webp" alt="Vet Bookr screen 6"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/1.webp" alt="Vet Bookr screen 7"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/1.webp" alt="Vet Bookr screen 8"></div>
       </div>
 
       <!-- Group 3 (4 images) -->
       <div class="vet-hrow-group vet-hrow-g3">
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group3/1.png" alt="Vet Bookr screen 9"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group3/2.png" alt="Vet Bookr screen 10"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group3/3.png" alt="Vet Bookr screen 11"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group3/4.png" alt="Vet Bookr screen 12"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/1.webp" alt="Vet Bookr screen 9"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/1.webp" alt="Vet Bookr screen 10"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/1.webp" alt="Vet Bookr screen 11"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/1.webp" alt="Vet Bookr screen 12"></div>
       </div>
 
       <!-- Group 4 (4 images) -->
       <div class="vet-hrow-group vet-hrow-g4">
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group4/1.png" alt="Vet Bookr screen 13"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group4/2.png" alt="Vet Bookr screen 14"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group4/3.png" alt="Vet Bookr screen 15"></div>
-        <div class="vet-hshot"><img src="./Assets/ImageAssets/VetBookr/group4/4.png" alt="Vet Bookr screen 16"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/1.webp" alt="Vet Bookr screen 13"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/1.webp" alt="Vet Bookr screen 14"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/1.webp" alt="Vet Bookr screen 15"></div>
+        <div class="vet-hshot"><img src="./Assets/ImageAssets/Tech/Vetscreenshot/1.webp" alt="Vet Bookr screen 16"></div>
       </div>
 
     </div>
