@@ -35,7 +35,7 @@
     <!-- RIGHT SIDE -->
     <div class="mars-right">
       <div class="lor-frame">
-        <img src="lor-image.jpg" alt="Mars Letter of Recommendation">
+        <img src="Assets/ImageAssets/Mars/Certificate.webp" alt="Mars Letter of Recommendation">
       </div>
     </div>
 
