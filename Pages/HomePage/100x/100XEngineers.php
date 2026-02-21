@@ -44,6 +44,12 @@
 
     </div>
 
-  </div>
 
+
+  </div>
+    <div class="vet-button-row">
+            <a href="vetbooker.php" class="vet-btn">Vet Bookr</a>
+            <a href="Mars.php" class="vet-btn">Mars International</a>
+            <a href="Petx.php" class="vet-btn">Pext Experience</a>
+      </div>
 </section>
