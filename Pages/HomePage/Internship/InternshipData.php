@@ -56,16 +56,36 @@
         Playing the role both infront and behind the camera
       </h3>
 
-      <p class="camera-intro">
-        I was given an opportunity to play a part in the photo shoot for a real estate client of Ebani Advertising, which is the communications arm of Ebani Group.
-      </p>
 
-      <!-- Row 1 -->
-      <div class="camera-row">
-        <img src="camera-1.jpg" alt="Shoot 1">
-        <img src="camera-2.jpg" alt="Shoot 2">
-        <img src="camera-3.jpg" alt="Shoot 3">
-      </div>
+  
+
+            <div class="camera-layout">
+
+                <!-- LEFT GRID -->
+                <div class="camera-left">
+
+                <p class="camera-description">
+                    I was given an opportunity to play a part in the photo shoot 
+                    for a real estate client of Ebani Advertising, which is the 
+                    communications arm of Ebani Group.
+                </p>
+
+                <div class="camera-small-grid">
+                    <img src="Assets/ImageAssets/Internship/Media1.jpg" alt="Shoot 1">
+                    <img src="Assets/ImageAssets/Internship/Media1.jpg" alt="Shoot 2">
+                </div>
+
+                </div>
+
+                <!-- RIGHT GRID (BIG IMAGE) -->
+                <div class="camera-right">
+                <img src="Assets/ImageAssets/Internship/Medi2.jpg" alt="Shoot 3">
+                </div>
+
+            </div>
+
+
+
 
       <p class="camera-intro">
         And on another occasion I shot both video and photo content for another client which is an international school.
