@@ -1,0 +1,101 @@
+/* ================================
+   MARS SECTION
+=================================*/
+.mars-section {
+  width: 100%;
+  background: #f5f5f5;
+  padding: 100px 0;
+}
+
+.mars-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+/* ================================
+   LEFT SIDE
+=================================*/
+
+.mars-title {
+  font-size: 34px;
+  font-weight: 800;
+  color: #868080;
+  margin-bottom: 25px;
+}
+
+.mars-text {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 22px;
+}
+
+.mars-team {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.mars-team img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.mars-footer-text {
+  font-size: 17px;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.mars-thankyou {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* ================================
+   RIGHT SIDE (LOR IMAGE)
+=================================*/
+
+.mars-right {
+  display: flex;
+  justify-content: center;
+}
+
+.lor-frame {
+  background: #666;
+  padding: 25px;
+  border-radius: 6px;
+}
+
+.lor-frame img {
+  width: 100%;
+  max-width: 520px;
+  display: block;
+  background: #fff;
+  border-radius: 4px;
+}
+
+/* ================================
+   RESPONSIVE
+=================================*/
+
+@media (max-width: 992px) {
+  .mars-container {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .mars-right {
+    order: -1;
+  }
+
+  .lor-frame img {
+    max-width: 100%;
+  }
+}
