@@ -100,3 +100,83 @@
     max-width: 100%;
   }
 }
+
+
+/* ===============================
+   BUTTON ROW SECTION
+=================================*/
+
+.vet-button-row {
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+/* Individual Button */
+.vet-btn {
+  display: inline-block;
+  min-width: 260px;          /* Equal width buttons */
+  padding: 18px 40px;
+  background-color: #2f2f2f; /* Dark background */
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Hover Effect */
+.vet-btn:hover {
+  background-color: #000000;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+/* Active Click Effect */
+.vet-btn:active {
+  transform: translateY(0px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ===============================
+   RESPONSIVE DESIGN
+=================================*/
+
+@media (max-width: 992px) {
+  .vet-button-row {
+    gap: 25px;
+  }
+
+  .vet-btn {
+    min-width: 220px;
+    padding: 16px 30px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .vet-button-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .vet-btn {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .vet-btn {
+    padding: 14px 20px;
+    font-size: 15px;
+  }
+}
