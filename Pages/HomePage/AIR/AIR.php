@@ -20,8 +20,10 @@
       </div>
 
       <div class="radio-col-2">
-        <img class="img-script" src="./Assets/ImageAssets/AIR/Radio (1).jpeg" alt="Standing with Scripts">
-        <img class="img-team" src="./Assets/ImageAssets/AIR/Media2.jpeg" alt="With the Interviewer">
+        <div class="script-box">
+          <img class="img-script" src="./Assets/ImageAssets/AIR/Radio (1).jpeg" alt="Standing with Scripts">
+        </div>
+        <img class="img-team" src="./Assets/ImageAssets/AIR/Media2.webp" alt="With the Interviewer">
       </div>
 
       <div class="radio-col-3">

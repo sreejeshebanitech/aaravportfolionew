@@ -4,22 +4,22 @@
 .radio-section {
   width: 100%;
   background: #fff;
-  padding: 80px 0;
-  font-family: 'Inter', sans-serif; /* Using a clean sans-serif */
+  padding: 60px 0 100px 0;
+  font-family: sans-serif;
 }
 
 .radio-container {
-  max-width: 1200px;
+  max-width: 1100px; /* Narrower container matches the image better */
   margin: 0 auto;
   padding: 0 24px;
 }
 
-/* TOP GRID: Text Left, Large Image Right */
+/* TOP GRID: Text and Studio Wide */
 .radio-top-grid {
   display: flex;
   align-items: flex-start;
-  gap: 40px;
-  margin-bottom: 20px;
+  gap: 50px;
+  margin-bottom: 30px;
 }
 
 .radio-text-top {
@@ -29,97 +29,85 @@
 .radio-title {
   font-size: 28px;
   font-weight: 700;
-  color: #666; /* Greyish color from image */
-  line-height: 1.3;
-  margin-bottom: 20px;
+  color: #555;
+  line-height: 1.2;
+  margin: 0 0 20px 0;
 }
 
 .radio-text-top p {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.6;
   color: #777;
+  max-width: 450px;
 }
 
 .radio-img-large {
-  flex: 1.2;
+  flex: 1.3;
 }
 
 .radio-img-large img {
   width: 100%;
-  border-radius: 4px;
   display: block;
 }
 
-/* BOTTOM GRID: The Staggered Columns */
+/* BOTTOM GRID: Staggered Collage */
 .radio-bottom-grid {
   display: grid;
-  grid-template-columns: 0.7fr 1.3fr 1fr; /* Matches the width ratios */
-  gap: 20px;
-  align-items: end; /* Aligns items to the bottom like the reference */
+  grid-template-columns: 220px 1fr 280px; /* Exact width ratios for collage */
+  gap: 30px;
+  align-items: end; /* Fixes bottom alignment for the reflection text */
 }
 
-/* Left Col: AIR Entrance */
+/* Col 1: Entrance Image (Left) */
 .radio-col-1 img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* Middle Col: Stacking the two center images */
+/* Col 2: Middle Stack */
 .radio-col-2 {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
-/* Position adjustment for the script image to overlap slightly */
+.img-script-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centers the script image in the middle col */
+}
+
 .img-script {
-  width: 80%;
-  align-self: flex-start;
-  margin-left: 20%;
+  width: 85%; /* Matches the slightly smaller script image look */
+  height: auto;
+  display: block;
 }
 
 .img-team {
   width: 100%;
+  height: auto;
+  display: block;
 }
 
-/* Right Col: Reflection Text tucked at the bottom */
+/* Col 3: Reflection Text (Right) */
 .radio-col-3 {
-  padding-bottom: 40px; /* Aligns text with the bottom team photo */
+  padding-bottom: 10px; /* Fine-tune to match the team image bottom */
 }
 
 .reflection-text {
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #888;
   font-weight: 400;
 }
 
-/* ===============================
-   RESPONSIVE
-=================================*/
+/* RESPONSIVE FIXES */
 @media (max-width: 992px) {
-  .radio-top-grid {
-    flex-direction: column;
-  }
+  .radio-top-grid { flex-direction: column; }
   .radio-bottom-grid {
     grid-template-columns: 1fr 1fr;
+    align-items: start;
   }
-  .radio-col-3 {
-    grid-column: span 2;
-    padding-bottom: 0;
-  }
-}
-
-@media (max-width: 600px) {
-  .radio-bottom-grid {
-    grid-template-columns: 1fr;
-  }
-  .radio-col-3 {
-    grid-column: span 1;
-  }
-  .img-script {
-    width: 100%;
-    margin-left: 0;
-  }
+  .radio-col-3 { grid-column: span 2; margin-top: 20px;}
 }
