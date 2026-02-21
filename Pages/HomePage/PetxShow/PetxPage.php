@@ -65,6 +65,34 @@
             </div>
       </div>
 
+
+      <section class="journey-page">
+        <div class="journey-wrap">
+          
+          <div class="journey-left">
+            <h2 class="journey-title">The overall journey</h2>
+            <p class="journey-description">
+              Building Vet Bookr was more than just creating an app; it was my first real experience of turning an idea into a live product. It taught me how technology, problem-solving, and persistence come together when building for real users.
+            </p>
+
+            <div class="journey-phases">
+              <p><strong>The Need Analysis</strong> – I researched existing apps solving similar problems and studied their features to identify gaps and improvements.</p>
+              
+              <p><strong>The Ideation to Development Phase</strong> – From naming the app to designing it as a single-stop solution for pet parents, I built it for both Android and iOS using Flutter, ensuring the front end and back end worked smoothly together.</p>
+              
+              <p><strong>The Go Live Phase</strong> – Android went live without major challenges, but the iOS launch was tougher. It pushed me to fine-tune small details, which I’m grateful for.</p>
+              
+              <p><strong>The Marketing Phase</strong> – I was nervous initially, but I gained confidence over time and began enjoying the journey. The encouragement I received strengthened my belief in what I had built.</p>
+            </div>
+          </div>
+
+          <div class="journey-right">
+            <img src="./Assets/ImageAssets/Journey/Meeting.jpg" alt="Meeting and discussing Vet Bookr" class="journey-main-img">
+          </div>
+
+        </div>
+      </section>
+
   </div>
    
 </section>
