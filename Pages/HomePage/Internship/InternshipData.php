@@ -73,10 +73,10 @@
 
       <!-- Row 2 -->
       <div class="camera-row">
-        <img src="camera-4.jpg" alt="Event 1">
-        <img src="camera-5.jpg" alt="Event 2">
-        <img src="camera-6.jpg" alt="Event 3">
-        <img src="camera-7.jpg" alt="Event 4">
+        <img src="Assets/ImageAssets/Internship/IMG_0586.jpg" alt="Event 1">
+        <img src="Assets/ImageAssets/Internship/IMG3.jpeg" alt="Event 2">
+        <img src="Assets/ImageAssets/Internship/Media.webp" alt="Event 3">
+        <img src="Assets/ImageAssets/Internship/Media3.webp" alt="Event 4">
       </div>
 
     </div>
