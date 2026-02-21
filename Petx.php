@@ -15,15 +15,13 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
 
     <!-- Section CSS -->
     <link rel="stylesheet" href="./pages/HomePage/HomePage.css">
-    <link rel="stylesheet" href="./pages/HomePage/VetBooker/vetbooker.css">
-     <link rel="stylesheet" href="./pages/HomePage/VetBooker/gallaryImage.css">
+  
 
 </head>
 <body>
 
     <?php include('./globals/header.php'); ?>
-     <?php include('./pages/HomePage/VetBooker/vetbooker.php'); ?>
-     <?php include('./pages/HomePage/VetBooker/gallaryImageSection.php'); ?>
+  
 
   
 
