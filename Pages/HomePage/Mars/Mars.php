@@ -19,7 +19,7 @@
 
       <!-- TEAM IMAGE -->
       <div class="mars-team">
-        <img src="team-image.jpg" alt="Mars Team Visit">
+        <img src="./Assets/ImageAssets/Mars/Presention.webp" alt="Mars Team Visit">
       </div>
 
       <p class="mars-footer-text">
