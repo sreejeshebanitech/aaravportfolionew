@@ -3,7 +3,7 @@
     <div class="header-container">
 
         <div class="logo">
-            <a href="index.php">AJP</a>
+            <a href="index.php">AARAV JADON PUTTNAM</a>
         </div>
 
         <nav class="nav-menu" id="navMenu">
