@@ -1,0 +1,117 @@
+/* ===============================
+   100X ENGINEERS SECTION
+=================================*/
+.engineers-section {
+  width: 100%;
+  background: #f3f3f3;
+  padding: 120px 0;
+}
+
+.engineers-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 40px;
+
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 80px 100px;
+  align-items: start;
+}
+
+/* ===============================
+   INTRO (Top Left)
+=================================*/
+.engineers-intro {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.engineers-logo img {
+  width: 280px;
+  margin-bottom: 25px;
+}
+
+.engineers-subtitle {
+  font-size: 30px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.engineers-intro p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  max-width: 520px;
+}
+
+/* ===============================
+   TOP RIGHT LARGE IMAGE
+=================================*/
+.engineers-image-large {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.engineers-image-large img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #ddd;
+}
+
+/* ===============================
+   BOTTOM LEFT IMAGE
+=================================*/
+.engineers-image-small {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.engineers-image-small img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #ddd;
+}
+
+/* ===============================
+   BOTTOM RIGHT TEXT
+=================================*/
+.engineers-text {
+  grid-column: 2;
+  grid-row: 2;
+  max-width: 600px;
+}
+
+.engineers-text p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 22px;
+}
+
+/* ===============================
+   RESPONSIVE
+=================================*/
+@media (max-width: 992px) {
+  .engineers-container {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .engineers-image-large,
+  .engineers-image-small,
+  .engineers-text {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .engineers-image-large img,
+  .engineers-image-small img {
+    height: auto;
+  }
+}
