@@ -64,6 +64,7 @@
 
 .mars-right {
   display: flex;
+  padding-top: 180px;
   justify-content: center;
 }
 
