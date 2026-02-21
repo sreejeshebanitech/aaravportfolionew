@@ -6,7 +6,7 @@
     <div class="engineers-intro">
 
       <div class="engineers-logo">
-        <img src="100x-logo.png" alt="100xEngineers Logo">
+        <img src="Assets/ImageAssets/100x/100xengineers.png" alt="100xEngineers Logo">
       </div>
 
       <h2 class="engineers-subtitle">My AI Learning Edge</h2>
