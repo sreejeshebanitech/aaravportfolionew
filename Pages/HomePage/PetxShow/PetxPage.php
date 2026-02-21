@@ -47,27 +47,22 @@
 
     <!-- IMAGE STRIP -->
       <div class="petex-strip">
+            <div class="petex-strip-item first-stack">
+              <img src="./Assets/ImageAssets/Petx/Petux.jpeg" alt="PETEX moment 1">
+              <img src="./Assets/ImageAssets/Petx/pet%20(2).jpeg" alt="PETEX moment 2">
+            </div>
 
-         <div class="petex-strip-item">
-          <img src="./Assets/ImageAssets/Petx/Petux.jpeg" alt="PETEX moment 1">
-        </div>
+            <div class="petex-strip-item">
+              <img src="./Assets/ImageAssets/Petx/ShowCase.webp" alt="PETEX moment 3">
+            </div>
 
-        <div class="petex-strip-item">
-          <img src="./Assets/ImageAssets/Petx/pet%20(2).jpeg" alt="PETEX moment 2">
-        </div>
+            <div class="petex-strip-item">
+              <img src="./Assets/ImageAssets/Petx/Social4.webp" alt="PETEX moment 4">
+            </div>
 
-        <div class="petex-strip-item">
-          <img src="./Assets/ImageAssets/Petx/ShowCase.webp" alt="PETEX moment 3">
-        </div>
-
-        <div class="petex-strip-item">
-          <img src="./Assets/ImageAssets/Petx/Social4.webp" alt="PETEX moment 4">
-        </div>
-
-        <div class="petex-strip-item">
-          <img src="./Assets/ImageAssets/Petx/WithPet.webp" alt="PETEX moment 5">
-        </div>
-
+            <div class="petex-strip-item">
+              <img src="./Assets/ImageAssets/Petx/WithPet.webp" alt="PETEX moment 5">
+            </div>
       </div>
 
   </div>

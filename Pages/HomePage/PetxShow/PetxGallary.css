@@ -116,53 +116,62 @@
 /* ===============================
    PETEX IMAGE STRIP (UPDATED)
 =================================*/
-
 .petex-strip {
-  /* Move outside the grid wrap if you want it full width, 
-     otherwise this ensures it spans both columns of your parent grid */
   grid-column: 1 / -1; 
   margin-top: 40px;
-  display: flex;       /* Using flex for better control over the "strip" look */
+  display: grid;
+  /* Creates 4 equal columns */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 20px;
-  justify-content: center;
-  align-items: flex-end; /* Aligns them to the bottom like the reference */
+  align-items: stretch;
 }
 
 .petex-strip-item {
-  flex: 1;
-  /* High border radius for that "pill/capsule" look in your target image */
   border-radius: 20px; 
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background: #fff;
 }
 
+/* The Single Images */
 .petex-strip-item img {
   width: 100%;
-  /* This is the key: set a tall aspect ratio (e.g., 4:5 or 9:16) */
-  aspect-ratio: 2 / 3; 
+  height: 100%; /* Fill the grid cell height */
   object-fit: cover;
   display: block;
 }
 
-.petex-strip-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+/* The Stacked Column Logic */
+.petex-strip-item.first-stack {
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* Two equal rows */
+  gap: 15px; /* Gap between the two stacked images */
+  background: transparent;
+  box-shadow: none; /* Shadow applies to images, not container */
+  overflow: visible;
 }
 
-/* RESPONSIVE FIXES */
-@media (max-width: 768px) {
+.petex-strip-item.first-stack img {
+  border-radius: 20px; /* Apply radius to individual images in the stack */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  height: 100%; 
+}
+
+/* RESPONSIVE */
+@media (max-width: 1050px) {
   .petex-strip {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns on tablets */
-    gap: 12px;
+    grid-template-columns: repeat(2, 1fr); /* 2x2 grid on tablets */
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 560px) {
   .petex-strip {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile */
+    grid-template-columns: 1fr; /* Single column on mobile */
+  }
+  .petex-strip-item.first-stack {
+    grid-template-rows: repeat(2, 200px); /* Fixed height for mobile stack */
+  }
+  .petex-strip-item img {
+    height: 300px;
   }
 }
 
