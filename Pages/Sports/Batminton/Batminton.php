@@ -111,8 +111,8 @@
 
     <!-- ========== BOTTOM BUTTONS ========== -->
     <div class="badminton-bottom-nav">
-      <a href="badminton.html" class="badminton-nav-btn is-active">Badminton</a>
-      <a href="powerlifting.html" class="badminton-nav-btn">Powerlifting</a>
+      <!-- <a href="badminton.html" class="badminton-nav-btn is-active">Badminton</a> -->
+      <a href="powerlifting.php" class="badminton-nav-btn">Powerlifting</a>
     </div>
 
   </div>
