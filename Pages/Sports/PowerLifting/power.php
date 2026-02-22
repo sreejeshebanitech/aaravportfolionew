@@ -48,7 +48,7 @@
 
     <!-- COMPETITION ROW -->
     <div class="pl-row pl-row-3">
-      <img src="./assets/powerlifting/comp1.jpg" alt="">
+      <img src="./Assets/ImageAssets/sports/IMG20241013145230_01.jpg" alt="">
       <img src="./assets/powerlifting/comp2.jpg" alt="">
       <img src="./assets/powerlifting/comp3.jpg" alt="">
     </div>
