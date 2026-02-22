@@ -1,72 +1,121 @@
-<section class="powerlifting-section">
+<!-- =========================
+     BADMINTON FULL PAGE SECTION
+========================== -->
+<section class="badminton-page">
 
-  <div class="pl-container">
+  <div class="badminton-wrap">
 
-    <!-- TOP GRID -->
-    <div class="pl-top-grid">
+    <!-- ========== TOP ROW (TEXT + MAIN VIDEO) ========== -->
+    <div class="badminton-top-grid">
 
-      <!-- LEFT CONTENT -->
-      <div class="pl-left">
-        <h2 class="pl-title">Powerlifting</h2>
-        <h3 class="pl-subtitle">A Sport I Discovered Through Training</h3>
+      <div class="badminton-top-left">
+        <h1 class="badminton-title">Badminton</h1>
+        <h2 class="badminton-subtitle">The Sport That Shaped Me Who I Am!</h2>
 
-        <p>
-          While training seriously for badminton, I had to work a lot on strength and conditioning...
+        <p class="badminton-para">
+          I started professional badminton training at 12. My days during peak training seasons often began at 4:00 AM,
+          with multiple hours of practice balanced alongside academics. I represented my state in national-level tournaments
+          and had the opportunity to train in high-performance environments in Singapore and at the Ban Thong Yod Academy in Bangkok.
         </p>
 
-        <p>
-          I began training for competitions mainly to improve my athletic performance. 
-          To my surprise, I went on to win gold medals at both state and national levels...
+        <p class="badminton-para">
+          Training internationally and competing on different courts taught me technical precision, mental focus, and how to
+          perform under pressure, lessons that extend far beyond sports.
         </p>
       </div>
 
-      <!-- RIGHT VIDEO CARD -->
-      <div class="pl-video-card">
-        <div class="video-wrapper">
-          <img src="./assets/powerlifting/video.jpg" alt="Powerlifting Video">
-          <span class="video-label">THIS VIDEO</span>
+      <div class="badminton-top-right">
+        <div class="badminton-main-video-box">
+          <div class="badminton-film-frame">
+            <!-- Replace src -->
+            <video class="badminton-main-video"
+                   src="./Assets/VideoAssets/Badminton/main.mp4"
+                   muted loop autoplay playsinline preload="metadata"></video>
+
+            <!-- optional code text like in reference -->
+            <div class="badminton-video-code">GBZW0830</div>
+          </div>
         </div>
-        <p class="video-name">VID20241013131131 (1)</p>
+
+        <div class="badminton-main-caption">THIS VIDEO</div>
       </div>
 
     </div>
 
-    <!-- MEDALS ROW -->
-    <div class="pl-row pl-row-2">
-      <img src="./assets/powerlifting/medal1.jpg" alt="">
-      <img src="./assets/powerlifting/medal2.jpg" alt="">
+    <!-- ========== VIDEOS STRIP ========== -->
+    <div class="badminton-strip badminton-strip--videos">
+      <div class="badminton-strip-grid">
+
+        <div class="badminton-strip-card">
+          <div class="badminton-strip-label">VIDEOS</div>
+          <video src="./Assets/VideoAssets/Badminton/v1.mp4" muted loop playsinline preload="metadata"></video>
+        </div>
+
+        <div class="badminton-strip-card">
+          <video src="./Assets/VideoAssets/Badminton/v2.mp4" muted loop playsinline preload="metadata"></video>
+        </div>
+
+        <div class="badminton-strip-card">
+          <video src="./Assets/VideoAssets/Badminton/v3.mp4" muted loop playsinline preload="metadata"></video>
+        </div>
+
+        <div class="badminton-strip-card">
+          <video src="./Assets/VideoAssets/Badminton/v4.mp4" muted loop playsinline preload="metadata"></video>
+        </div>
+
+        <div class="badminton-strip-card">
+          <video src="./Assets/VideoAssets/Badminton/v5.mp4" muted loop playsinline preload="metadata"></video>
+        </div>
+
+      </div>
     </div>
 
-    <!-- COMPETITION ROW -->
-    <div class="pl-row pl-row-3">
-      <img src="./assets/powerlifting/comp1.jpg" alt="">
-      <img src="./assets/powerlifting/comp2.jpg" alt="">
-      <img src="./assets/powerlifting/comp3.jpg" alt="">
+    <!-- ========== IMAGES STRIP ========== -->
+    <div class="badminton-strip badminton-strip--images">
+      <div class="badminton-strip-grid badminton-strip-grid--4">
+
+        <div class="badminton-img-card">
+          <div class="badminton-strip-label">IMAGES</div>
+          <img src="./Assets/ImageAssets/sports/badminton/i1.jpg" alt="Badminton image 1">
+        </div>
+
+        <div class="badminton-img-card">
+          <img src="./Assets/ImageAssets/sports/badminton/i2.jpg" alt="Badminton image 2">
+        </div>
+
+        <div class="badminton-img-card">
+          <img src="./Assets/ImageAssets/sports/badminton/i3.jpg" alt="Badminton image 3">
+        </div>
+
+        <div class="badminton-img-card">
+          <img src="./Assets/ImageAssets/sports/badminton/i4.jpg" alt="Badminton image 4">
+        </div>
+
+      </div>
     </div>
 
-    <!-- CERTIFICATES + TEXT -->
-    <div class="pl-bottom-grid">
+    <!-- ========== INJURY & REFLECTION ========== -->
+    <div class="badminton-reflection">
 
-      <div class="pl-certificates">
-        <img src="./assets/powerlifting/cert1.jpg" alt="">
-        <img src="./assets/powerlifting/cert2.jpg" alt="">
+      <div class="badminton-injury-img">
+        <img src="./Assets/ImageAssets/sports/badminton/injury.jpg" alt="Injury">
       </div>
 
-      <div class="pl-reflection">
-        <h3>What Powerlifting Taught Me</h3>
+      <div class="badminton-reflection-text">
+        <h3>Injury & Reflection</h3>
         <p>
-          Powerlifting taught me patience and focus. Every lift requires preparation,
-          control, and belief in your training. Progress doesn’t happen overnight —
-          it’s built slowly through consistency and discipline.
+          A repetitive shoulder injury eventually made it difficult to continue pursuing badminton as a full-time career.
+          Letting go of that path was tough, but it taught me resilience, that sometimes growth means adapting and finding
+          new ways to channel effort and passion.
         </p>
       </div>
 
     </div>
 
-    <!-- BUTTONS -->
-    <div class="pl-buttons">
-      <a href="#" class="pl-btn">Badminton</a>
-      <a href="#" class="pl-btn active">Powerlifting</a>
+    <!-- ========== BOTTOM BUTTONS ========== -->
+    <div class="badminton-bottom-nav">
+      <a href="badminton.html" class="badminton-nav-btn is-active">Badminton</a>
+      <a href="powerlifting.html" class="badminton-nav-btn">Powerlifting</a>
     </div>
 
   </div>

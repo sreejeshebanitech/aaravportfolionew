@@ -17,6 +17,23 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
     <link rel="stylesheet" href="./pages/HomePage/HomePage.css">
     <link rel="stylesheet" href="./pages/Sports/Batminton/Batminton.css">
 
+    <script>
+  // Hover Play for Videos Strip
+  const stripVideos = document.querySelectorAll(".badminton-strip--videos .badminton-strip-card video");
+
+  stripVideos.forEach((v) => {
+    const card = v.closest(".badminton-strip-card");
+
+    card.addEventListener("mouseenter", async () => {
+      try { await v.play(); } catch (e) {}
+    });
+
+    card.addEventListener("mouseleave", () => {
+      v.pause();
+      v.currentTime = 0;
+    });
+  });
+</script>
 
   
 
