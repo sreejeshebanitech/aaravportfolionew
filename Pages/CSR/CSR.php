@@ -38,15 +38,15 @@
       <div class="grounded-right">
         <div class="grounded-collage">
           <div class="collage-big">
-            <img src="images/main.jpg" alt="Sharing books moment">
+            <img src="./Assets/ImageAssets/CSR/Community2.jpg" alt="Sharing books moment">
           </div>
 
           <div class="collage-small">
             <div class="collage-card">
-              <img src="images/books.jpg" alt="Books">
+              <img src="./Assets/ImageAssets/CSR/Comunity3.jpg" alt="Books">
             </div>
             <div class="collage-card">
-              <img src="images/cart.jpg" alt="Tea cart">
+              <img src="./Assets/ImageAssets/CSR/Community1.jpg" alt="Tea cart">
             </div>
           </div>
         </div>
