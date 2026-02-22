@@ -11,12 +11,11 @@
         <h3 class="pl-subtitle">A Sport I Discovered Through Training</h3>
 
         <p>
-          While training seriously for badminton, I had to work a lot on strength and conditioning...
+          While training seriously for badminton, I had to work a lot on strength and conditioning since badminton is one of the fastest racquet sports and demands constant movement and explosive power. My fitness trainer suggested I try powerlifting because it would build strength without affecting my agility.
         </p>
 
         <p>
-          I began training for competitions mainly to improve my athletic performance. 
-          To my surprise, I went on to win gold medals at both state and national levels...
+          I began training for competitions, mainly to improve my athletic performance. To my surprise, I went on to win gold medals at both state and national levels, and even set a new state record. What started as support training became a competitive journey of its own
         </p>
       </div>
 
