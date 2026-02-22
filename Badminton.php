@@ -24,7 +24,7 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
 <body>
 
     <?php include('./globals/header.php'); ?>
-     <?php include('./pages/Sports/Batminton/Badminton.php'); ?>
+     <?php include('./pages/Sports/Batminton/Batminton.php'); ?>
 
   
 
