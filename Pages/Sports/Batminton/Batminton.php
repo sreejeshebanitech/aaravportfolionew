@@ -73,7 +73,6 @@
       <div class="badminton-strip-grid badminton-strip-grid--4">
 
         <div class="badminton-img-card">
-          <div class="badminton-strip-label">IMAGES</div>
           <img src="./Assets/ImageAssets/sports/CKUR5288.JPEG" alt="Badminton image 1">
         </div>
 
@@ -86,7 +85,7 @@
         </div>
 
         <div class="badminton-img-card">
-          <img src="./Assets/ImageAssets/sports/WhatsApp Image 2026-02-09 at 6.27.17 PM.jpg" alt="Badminton image 4">
+          <img src="./Assets/ImageAssets/sports/WhatsApp Image 2026-02-09 at 6.27.17 PM.jpeg" alt="Badminton image 4">
         </div>
 
       </div>
