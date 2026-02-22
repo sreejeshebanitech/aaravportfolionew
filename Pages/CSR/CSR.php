@@ -56,39 +56,44 @@
 
 
     <!-- ================= COMPUTER HUB ================= -->
-    <div class="grounded-row">
+    <!-- ================= COMPUTER HUB ================= -->
+<div class="grounded-row">
 
-      <div class="grounded-text">
-        <h3 class="grounded-subtitle">Computer Learning Hub</h3>
-        <p class="grounded-mini">at My Home Navajeevana, A Home for the Girl Child</p>
+  <div class="grounded-text">
+    <h3 class="grounded-subtitle">Computer Learning Hub</h3>
+    <p class="grounded-mini">at My Home Navajeevana, A Home for the Girl Child</p>
 
-        <p class="grounded-para">
-          As part of my internship at Ebani Tech, I was involved in a Christmas initiative
-          where we helped set up the computers at My Home Navajeevana, a home for girl children.
-        </p>
+    <p class="grounded-para">
+      As part of my internship at Ebani Tech, I was involved in a Christmas initiative
+      where we helped set up the computers at My Home Navajeevana, a home for girl children.
+    </p>
 
-        <p class="grounded-para">
-          They were smart, eager to learn, and just needed access to the right tools.
-          Experiences like this remind me to stay grateful and never take my own opportunities
-          for granted.
-        </p>
-      </div>
+    <p class="grounded-para">
+      They were smart, eager to learn, and just needed access to the right tools.
+      Experiences like this remind me to stay grateful and never take my own opportunities
+      for granted.
+    </p>
+  </div>
 
-      <div class="grounded-media">
-        <!-- Replace this placeholder with <video> later if needed -->
-        <div class="media-placeholder">
-          WhatsApp Video 2026-02-09 <br> at 8.06.55 PM
-        </div>
-      </div>
-
+  <div class="grounded-media">
+    <div class="video-wrapper">
+      <video
+        src="Assets/ImageAssets/CSR/Community.mp4"
+        controls
+        preload="metadata"
+        playsinline>
+      </video>
     </div>
+  </div>
+
+</div> <!-- ✅ THIS WAS MISSING -->
 
 
     <!-- ================= IMAGE STRIP ================= -->
     <div class="grounded-strip">
-      <div class="strip-img"><img src="images/hub1.jpg" alt=""></div>
-      <div class="strip-img"><img src="images/hub2.jpg" alt=""></div>
-      <div class="strip-img"><img src="images/hub3.jpg" alt=""></div>
+      <div class="strip-img"><img src="./Assets/ImageAssets/CSR/Community9.jpeg" alt=""></div>
+      <div class="strip-img"><img src="./Assets/ImageAssets/CSR/Community6.jpeg" alt=""></div>
+      <div class="strip-img"><img src="./Assets/ImageAssets/CSR/Community5.jpeg" alt=""></div>
     </div>
 
 
