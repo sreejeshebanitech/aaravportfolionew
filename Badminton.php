@@ -17,10 +17,10 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
     <link rel="stylesheet" href="./pages/HomePage/HomePage.css">
     <link rel="stylesheet" href="./pages/Sports/Batminton/Batminton.css">
 
-    <script>
+   <script>
 document.addEventListener("DOMContentLoaded", function () {
 
-  const cards = document.querySelectorAll(
+  const videos = document.querySelectorAll(
     ".badminton-strip--videos .badminton-strip-card video"
   );
 
@@ -28,10 +28,27 @@ document.addEventListener("DOMContentLoaded", function () {
   const modalVideo = document.getElementById("modalVideo");
   const closeBtn = document.getElementById("videoClose");
 
-  cards.forEach(video => {
+  videos.forEach(video => {
 
     const card = video.closest(".badminton-strip-card");
 
+    /* ------------------------
+       HOVER PREVIEW
+    ------------------------ */
+    card.addEventListener("mouseenter", async () => {
+      try {
+        await video.play();
+      } catch (err) {}
+    });
+
+    card.addEventListener("mouseleave", () => {
+      video.pause();
+      video.currentTime = 0;
+    });
+
+    /* ------------------------
+       CLICK → OPEN MODAL
+    ------------------------ */
     card.addEventListener("click", () => {
 
       const src = video.getAttribute("src");
@@ -45,6 +62,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   });
 
+  /* ------------------------
+     CLOSE MODAL
+  ------------------------ */
   function closeModal(){
     modal.classList.remove("is-active");
     modalVideo.pause();
@@ -55,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
   closeBtn.addEventListener("click", closeModal);
 
   modal.addEventListener("click", (e) => {
-    if(e.target.classList.contains("badminton-video-overlay")){
+    if(e.target === modal){
       closeModal();
     }
   });
