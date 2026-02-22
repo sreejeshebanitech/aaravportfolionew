@@ -46,24 +46,23 @@
       <div class="badminton-strip-grid">
 
         <div class="badminton-strip-card">
-          <div class="badminton-strip-label">VIDEOS</div>
-          <video src="./Assets/VideoAssets/Badminton/v1.mp4" muted loop playsinline preload="metadata"></video>
+          <video src="./Assets/ImageAssets/sports/GBZW0830.MP4" muted loop playsinline preload="metadata"></video>
         </div>
 
         <div class="badminton-strip-card">
-          <video src="./Assets/VideoAssets/Badminton/v2.mp4" muted loop playsinline preload="metadata"></video>
+          <video src="./Assets/ImageAssets/sports/GBZW0830.MP4" muted loop playsinline preload="metadata"></video>
         </div>
 
         <div class="badminton-strip-card">
-          <video src="./Assets/VideoAssets/Badminton/v3.mp4" muted loop playsinline preload="metadata"></video>
+          <video src="./Assets/ImageAssets/sports/GBZW0830.MP4" muted loop playsinline preload="metadata"></video>
         </div>
 
         <div class="badminton-strip-card">
-          <video src="./Assets/VideoAssets/Badminton/v4.mp4" muted loop playsinline preload="metadata"></video>
+          <video src="./Assets/ImageAssets/sports/GBZW0830.MP4" muted loop playsinline preload="metadata"></video>
         </div>
 
         <div class="badminton-strip-card">
-          <video src="./Assets/VideoAssets/Badminton/v5.mp4" muted loop playsinline preload="metadata"></video>
+          <video src="./Assets/ImageAssets/sports/GBZW0830.MP4" muted loop playsinline preload="metadata"></video>
         </div>
 
       </div>
@@ -75,19 +74,19 @@
 
         <div class="badminton-img-card">
           <div class="badminton-strip-label">IMAGES</div>
-          <img src="./Assets/ImageAssets/sports/badminton/i1.jpg" alt="Badminton image 1">
+          <img src="./Assets/ImageAssets/sports/CKUR5288.JPEG" alt="Badminton image 1">
         </div>
 
         <div class="badminton-img-card">
-          <img src="./Assets/ImageAssets/sports/badminton/i2.jpg" alt="Badminton image 2">
+          <img src="Assets/ImageAssets/sports/170048%20(1).jpg" alt="Badminton image 2">
         </div>
 
         <div class="badminton-img-card">
-          <img src="./Assets/ImageAssets/sports/badminton/i3.jpg" alt="Badminton image 3">
+          <img src="./Assets/ImageAssets/sports/WhatsApp Image 2026-02-09 at 9.54.12 PM.jpeg" alt="Badminton image 3">
         </div>
 
         <div class="badminton-img-card">
-          <img src="./Assets/ImageAssets/sports/badminton/i4.jpg" alt="Badminton image 4">
+          <img src="./Assets/ImageAssets/sports/WhatsApp Image 2026-02-09 at 6.27.17 PM.jpg" alt="Badminton image 4">
         </div>
 
       </div>
