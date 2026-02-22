@@ -55,23 +55,30 @@
     </div>
 
     <!-- CERTIFICATES + TEXT -->
-    <div class="pl-bottom-grid">
+   <div class="pl-bottom-grid">
 
-      <div class="pl-certificates">
-        <img src="./assets/powerlifting/cert1.jpg" alt="">
-        <img src="./assets/powerlifting/cert2.jpg" alt="">
+        <!-- LEFT COLUMN -->
+        <div class="pl-certificates">
+          <img src="./Assets/ImageAssets/sports/CERT1.png" alt="">
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="pl-reflection">
+
+          <img src="./Assets/ImageAssets/sports/cert2.png" alt="">
+
+          <div>
+            <h3>What Powerlifting Taught Me</h3>
+            <p>
+              Powerlifting taught me patience and focus. Every lift requires preparation,
+              control, and belief in your training. Progress doesn’t happen overnight —
+              it’s built slowly through consistency and discipline.
+            </p>
+          </div>
+
+        </div>
+
       </div>
-
-      <div class="pl-reflection">
-        <h3>What Powerlifting Taught Me</h3>
-        <p>
-          Powerlifting taught me patience and focus. Every lift requires preparation,
-          control, and belief in your training. Progress doesn’t happen overnight —
-          it’s built slowly through consistency and discipline.
-        </p>
-      </div>
-
-    </div>
 
     <!-- BUTTONS -->
     <div class="pl-buttons">
