@@ -110,8 +110,10 @@
       </div>
 
       <div class="grounded-media">
-        <div class="gray-box"></div>
-      </div>
+        <div class="media-box">
+            <img src="Assets/ImageAssets/CSR/WhatsApp Image 2026-02-22 at 12.44.28 PM.jpeg" alt="Church Media Team">
+        </div>
+        </div>
 
     </div>
 
