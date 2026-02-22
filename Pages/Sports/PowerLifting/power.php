@@ -55,7 +55,7 @@
     </div>
 
     <!-- CERTIFICATES + TEXT -->
-   <div class="pl-bottom-grid">
+      <div class="pl-bottom-grid">
 
         <!-- LEFT COLUMN -->
         <div class="pl-certificates">
