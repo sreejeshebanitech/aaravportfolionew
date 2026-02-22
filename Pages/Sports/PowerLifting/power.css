@@ -156,7 +156,7 @@
 .pl-reflection {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  /* gap: 30px; */
 }
 
 /* SMALL CERTIFICATE (move into reflection area visually) */
