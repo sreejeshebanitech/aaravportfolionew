@@ -27,7 +27,7 @@
               national levels, and developed grit, discipline, and passion
               that shaped my character.
             </p>
-            <a href="badminton.php" class="sports-btn">KNOW MORE</a>
+            <a href="Badminton.php" class="sports-btn">KNOW MORE</a>
           </div>
         </div>
 
