@@ -1,0 +1,142 @@
+/* ===============================
+   GROUNDED SECTION
+=================================*/
+.grounded-section {
+  background: #f2f2f2;
+  padding: 100px 0;
+}
+
+.grounded-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* ===============================
+   GRID STRUCTURE
+=================================*/
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 80px;
+  align-items: start;
+  margin-bottom: 100px;
+}
+
+.grid-2.reverse {
+  grid-template-columns: 1fr 1.2fr;
+}
+
+/* ===============================
+   TEXT
+=================================*/
+.text-block h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.text-block h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.sub-heading {
+  display: block;
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.text-block p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* ===============================
+   IMAGE STACK
+=================================*/
+.image-stack img {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.small-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+/* ===============================
+   VIDEO BOX
+=================================*/
+.video-box {
+  background: #d8d8d8;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.video-placeholder {
+  background: #444;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+/* ===============================
+   IMAGE STRIP
+=================================*/
+.image-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.image-strip img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* ===============================
+   GRAY BOX PLACEHOLDER
+=================================*/
+.gray-box {
+  background: #cfcfcf;
+  height: 300px;
+  border-radius: 6px;
+}
+
+/* ===============================
+   RESPONSIVE
+=================================*/
+@media (max-width: 992px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .image-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .image-strip img {
+    height: auto;
+  }
+
+  .gray-box {
+    height: 220px;
+  }
+}
