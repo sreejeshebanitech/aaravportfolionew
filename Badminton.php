@@ -18,23 +18,50 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
     <link rel="stylesheet" href="./pages/Sports/Batminton/Batminton.css">
 
     <script>
-  // Hover Play for Videos Strip
-  const stripVideos = document.querySelectorAll(".badminton-strip--videos .badminton-strip-card video");
+document.addEventListener("DOMContentLoaded", function () {
 
-  stripVideos.forEach((v) => {
-    const card = v.closest(".badminton-strip-card");
+  const cards = document.querySelectorAll(
+    ".badminton-strip--videos .badminton-strip-card video"
+  );
 
-    card.addEventListener("mouseenter", async () => {
-      try { await v.play(); } catch (e) {}
+  const modal = document.getElementById("videoModal");
+  const modalVideo = document.getElementById("modalVideo");
+  const closeBtn = document.getElementById("videoClose");
+
+  cards.forEach(video => {
+
+    const card = video.closest(".badminton-strip-card");
+
+    card.addEventListener("click", () => {
+
+      const src = video.getAttribute("src");
+
+      modalVideo.src = src;
+      modal.classList.add("is-active");
+
+      modalVideo.play();
+
     });
 
-    card.addEventListener("mouseleave", () => {
-      v.pause();
-      v.currentTime = 0;
-    });
   });
-</script>
 
+  function closeModal(){
+    modal.classList.remove("is-active");
+    modalVideo.pause();
+    modalVideo.currentTime = 0;
+    modalVideo.src = "";
+  }
+
+  closeBtn.addEventListener("click", closeModal);
+
+  modal.addEventListener("click", (e) => {
+    if(e.target.classList.contains("badminton-video-overlay")){
+      closeModal();
+    }
+  });
+
+});
+</script>
   
 
 </head>
@@ -44,6 +71,18 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
      <?php include('./pages/Sports/Batminton/Batminton.php'); ?>
 
   
+  <!-- =========================
+     VIDEO MODAL
+========================== -->
+<div class="badminton-video-modal" id="videoModal">
+  <div class="badminton-video-overlay"></div>
+
+  <div class="badminton-video-modal-content">
+    <button class="badminton-video-close" id="videoClose">&times;</button>
+    <video id="modalVideo" controls playsinline></video>
+  </div>
+</div>
+
 
 </body>
 </html>
