@@ -82,7 +82,7 @@
 
     <!-- BUTTONS -->
     <div class="pl-buttons">
-      <a href="#" class="pl-btn">Badminton</a>
+      <a href="Badminton.php" class="pl-btn">Badminton</a>
       <!-- <a href="Badminton.php" class="pl-btn active">Powerlifting</a> -->
     </div>
 

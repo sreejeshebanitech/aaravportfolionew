@@ -95,7 +95,7 @@
     <div class="badminton-reflection">
 
       <div class="badminton-injury-img">
-        <img src="./Assets/ImageAssets/sports/badminton/injury.jpg" alt="Injury">
+        <img src="./Assets/ImageAssets/sports//WhatsApp Image 2026-02-09 at 8.06.38 PM.jpeg" alt="Injury">
       </div>
 
       <div class="badminton-reflection-text">
