@@ -24,10 +24,11 @@
 }
 
 .sports-image img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    width: 102%;
+    height: 675px;       /* Fill the container height */
+    /* object-fit: cover;  Prevents stretching/squishing */
+    display: block;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
 }
 
 /* ===============================

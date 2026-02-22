@@ -3,7 +3,7 @@
 
     <!-- LEFT IMAGE -->
     <div class="sports-image">
-      <img src="./Assets/ImageAssets/Sports/sports.jpeg" alt="Sports Journey">
+      <img src="./Assets/ImageAssets/HomePage/Aaravd.webp" alt="Sports Journey">
     </div>
 
     <!-- RIGHT CONTENT -->
