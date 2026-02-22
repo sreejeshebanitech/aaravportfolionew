@@ -29,15 +29,14 @@
           <div class="badminton-film-frame">
             <!-- Replace src -->
             <video class="badminton-main-video"
-                   src="./Assets/VideoAssets/Badminton/main.mp4"
+                   src="./Assets/ImageAssets/sports/GBZW0830.MP4"
                    muted loop autoplay playsinline preload="metadata"></video>
 
             <!-- optional code text like in reference -->
-            <div class="badminton-video-code">GBZW0830</div>
+            
           </div>
         </div>
 
-        <div class="badminton-main-caption">THIS VIDEO</div>
       </div>
 
     </div>
