@@ -20,20 +20,30 @@
       </div>
 
       <!-- RIGHT VIDEO CARD -->
-      <div class="pl-video-card">
+    <div class="pl-video-card">
+
         <div class="video-wrapper">
-          <img src="./assets/powerlifting/video.jpg" alt="Powerlifting Video">
-          <span class="video-label">THIS VIDEO</span>
+          <video 
+            src="./Assets/VideoAssets/SportsAssets/PowerLift/PowerLiftHomePageVideo.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+            controls>
+          </video>
+
         </div>
-        <p class="video-name">VID20241013131131 (1)</p>
+
+       
+
       </div>
 
     </div>
 
     <!-- MEDALS ROW -->
     <div class="pl-row pl-row-2">
-      <img src="./assets/powerlifting/medal1.jpg" alt="">
-      <img src="./assets/powerlifting/medal2.jpg" alt="">
+      <img src="./Assets/ImageAssets/sports/Aaravd.png" alt="">
+      <img src="./Assets/ImageAssets/sports/WhatsApp Image 2026-02-20 at 10.04.22 AM.jpeg" alt="">
     </div>
 
     <!-- COMPETITION ROW -->
