@@ -114,6 +114,12 @@
   display: block;
 }
 
+.pl-row-3 img {
+  height: 380px;        /* different height */
+  object-fit: cover;    /* proper cropping */
+  border-radius: 12px;  /* optional styling */
+}
+
 /* 2 column */
 .pl-row-2 {
   grid-template-columns: repeat(2, 1fr);
