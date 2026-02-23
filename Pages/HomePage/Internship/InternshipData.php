@@ -71,8 +71,8 @@
                 </p>
 
                 <div class="camera-small-grid">
-                    <img src="Assets/ImageAssets/Internship/Media1.jpg" alt="Shoot 1">
-                    <img src="Assets/ImageAssets/Internship/Media1.jpg" alt="Shoot 2">
+                    <img src="./Assets/ImageAssets/Internship/Media1.JPG" alt="Shoot 1">
+                    <img src="./Assets/ImageAssets/Internship/Media1.JPG" alt="Shoot 2">
                 </div>
 
                 </div>
