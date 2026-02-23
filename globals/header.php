@@ -12,7 +12,7 @@
             <a href="tech.php">Tech</a>
             <a href="sports.php">Sports</a>
             <a href="community.php">Community</a>
-            <a href="recognition.php">Recognition</a>
+            <a href="Milestone.php">Recognition</a>
         </nav>
 
         <div class="menu-toggle" onclick="toggleMenu()">
