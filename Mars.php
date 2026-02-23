@@ -14,8 +14,8 @@ $meta_keywords = "Aarav Jadon Puttanam, AI student, Cambridge student, aspiring 
     <link rel="stylesheet" href="./globals/headerInsidePage.css">
 
     <!-- Section CSS -->
-    <link rel="stylesheet" href="./pages/HomePage/HomePage.css">
-        <link rel="stylesheet" href="./pages/HomePage/Mars/Mars.css">
+    <link rel="stylesheet" href="./Pages/HomePage/HomePage.css">
+        <link rel="stylesheet" href="./Pages/HomePage/Mars/Mars.css">
 
 
   
