@@ -50,19 +50,19 @@
         </div>
 
         <div class="badminton-strip-card">
-          <video src="./Assets/ImageAssets/sports/running.MP4" muted loop playsinline preload="metadata"></video>
+          <video src="./Assets/ImageAssets/sports/running.mp4" muted loop playsinline preload="metadata"></video>
         </div>
 
         <div class="badminton-strip-card">
-          <video src="./Assets/ImageAssets/sports/vido2.MP4" muted loop playsinline preload="metadata"></video>
+          <video src="./Assets/ImageAssets/sports/vido2.mp4" muted loop playsinline preload="metadata"></video>
         </div>
 
         <div class="badminton-strip-card">
-          <video src="./Assets/ImageAssets/sports/vido23.MP4" muted loop playsinline preload="metadata"></video>
+          <video src="./Assets/ImageAssets/sports/vido23.mp4" muted loop playsinline preload="metadata"></video>
         </div>
 
         <div class="badminton-strip-card">
-          <video src="./Assets/ImageAssets/sports/video2.MP4" muted loop playsinline preload="metadata"></video>
+          <video src="./Assets/ImageAssets/sports/video2.mp4" muted loop playsinline preload="metadata"></video>
         </div>
 
       </div>
