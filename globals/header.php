@@ -11,7 +11,7 @@
             <!-- <a href="about.php">About</a> -->
             <a href="index.php#tech">Tech</a>
             <a href="index.php#sports">Sports</a>
-            <a href="community.php">Community</a>
+            <a href="Community.php">Community</a>
             <a href="Milestone.php">Recognition</a>
         </nav>
 
