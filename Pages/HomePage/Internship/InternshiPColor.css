@@ -1,0 +1,289 @@
+/* ==================================
+   EBANI SECTION
+==================================*/
+.ebani-section {
+  background: #f3f3f3;
+  padding: 120px 0;
+}
+
+.ebani-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* ==================================
+   TOP SECTION
+==================================*/
+.ebani-top {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 80px;
+  align-items: start;
+  margin-bottom: 100px;
+}
+
+.ebani-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.ebani-subtitle {
+  font-size: 22px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.ebani-top-left p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.ebani-top-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ebani-logo {
+  width: 180px;
+  align-self: flex-end;
+}
+
+.ebani-top-right img:last-child {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* ==================================
+   MID SECTION
+==================================*/
+.ebani-mid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 120px;
+  align-items: center;
+}
+
+.ebani-mid-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.ebani-mid-images img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.ebani-mid-text p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* ==================================
+   CAMERA SECTION
+==================================*/
+.ebani-camera {
+  margin-bottom: 100px;
+}
+
+.camera-heading {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.camera-intro {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.camera-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.camera-row img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+
+/* ==================================
+   SUMMARY
+==================================*/
+.ebani-summary p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #444;
+  /* max-width: 1000px; */
+}
+
+/* ==================================
+   RESPONSIVE
+==================================*/
+@media (max-width: 992px) {
+  .ebani-top,
+  .ebani-mid {
+    grid-template-columns: 1fr;
+  }
+
+  .ebani-logo {
+    align-self: flex-start;
+  }
+}
+
+/* ===============================
+   CAMERA SECTION - 2 GRID LAYOUT
+=================================*/
+
+.camera-section {
+  margin-top: 100px;
+}
+
+.camera-heading {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+/* MAIN 2-COLUMN GRID */
+.camera-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 40px;
+  align-items: stretch;
+}
+
+/* LEFT SIDE */
+.camera-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.camera-description {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #555;
+  padding-top: 60px;
+  margin-bottom: 25px;
+}
+
+/* TWO SMALL IMAGES */
+.camera-small-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.camera-small-grid img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* RIGHT BIG IMAGE */
+.camera-right img {
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .camera-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .camera-right img {
+    min-height: 320px;
+  }
+}
+
+
+
+/* ==================================
+   EXPERIENCE NAVIGATION SECTION
+==================================*/
+
+.experience-nav-section {
+  background: #f3f3f3; /* Same as Ebani for continuity */
+  padding: 80px 0 120px;
+}
+
+.experience-nav-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Button Row */
+.experience-nav-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Individual Button */
+.experience-btn {
+  flex: 1 1 260px;
+  max-width: 300px;
+  padding: 18px 40px;
+  background: #2f2f2f;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.experience-btn:hover {
+  background: #000;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+.experience-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-nav-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .experience-btn {
+    width: 100%;
+    max-width: 350px;
+  }
+}

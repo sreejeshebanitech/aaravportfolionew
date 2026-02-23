@@ -1,0 +1,182 @@
+/* ================================
+   MARS SECTION
+=================================*/
+.mars-section {
+  width: 100%;
+  background: #f5f5f5;
+  padding: 100px 0;
+}
+
+.mars-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+/* ================================
+   LEFT SIDE
+=================================*/
+
+.mars-title {
+  font-size: 34px;
+  font-weight: 800;
+  color: #868080;
+  margin-bottom: 25px;
+}
+
+.mars-text {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 22px;
+}
+
+.mars-team {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.mars-team img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.mars-footer-text {
+  font-size: 17px;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.mars-thankyou {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* ================================
+   RIGHT SIDE (LOR IMAGE)
+=================================*/
+
+.mars-right {
+  display: flex;
+  padding-top: 180px;
+  justify-content: center;
+}
+
+.lor-frame {
+  background: #666;
+  padding: 25px;
+  border-radius: 6px;
+}
+
+.lor-frame img {
+  width: 100%;
+  max-width: 520px;
+  display: block;
+  background: #fff;
+  border-radius: 4px;
+}
+
+/* ================================
+   RESPONSIVE
+=================================*/
+
+@media (max-width: 992px) {
+  .mars-container {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .mars-right {
+    order: -1;
+  }
+
+  .lor-frame img {
+    max-width: 100%;
+  }
+}
+
+
+/* ===============================
+   BUTTON ROW SECTION
+=================================*/
+
+.vet-button-row {
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+/* Individual Button */
+.vet-btn {
+  display: inline-block;
+  min-width: 260px;          /* Equal width buttons */
+  padding: 18px 40px;
+  background-color: #2f2f2f; /* Dark background */
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Hover Effect */
+.vet-btn:hover {
+  background-color: #000000;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+/* Active Click Effect */
+.vet-btn:active {
+  transform: translateY(0px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ===============================
+   RESPONSIVE DESIGN
+=================================*/
+
+@media (max-width: 992px) {
+  .vet-button-row {
+    gap: 25px;
+  }
+
+  .vet-btn {
+    min-width: 220px;
+    padding: 16px 30px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .vet-button-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .vet-btn {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .vet-btn {
+    padding: 14px 20px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,386 @@
+/* ===============================
+   PETEX PAGE SECTION
+=================================*/
+.petex-page{
+  width: 100%;
+  background: #fff;
+}
+
+.petex-wrap{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 90px 24px;
+  display: grid;
+  grid-template-columns: 1.4fr 0.9fr;
+  gap: 60px;
+  align-items: start;
+}
+
+/* ===============================
+   LEFT CONTENT
+=================================*/
+.petex-title{
+  font-size: 34px;
+  font-weight: 800;
+  color: #111;
+  margin: 0 0 14px 0;
+}
+
+.petex-subtitle{
+  font-size: 20px;
+  font-weight: 700;
+  color: #444;
+  margin: 0 0 22px 0;
+}
+
+.petex-bullets p{
+  font-size: 18px;
+  line-height: 1.75;
+  color: #666;
+  margin: 0 0 14px 0;
+}
+
+/* Optional: make it feel like “bullet paragraphs” */
+.petex-bullets p{
+  position: relative;
+  padding-left: 18px;
+}
+.petex-bullets p::before{
+  /* content: "•"; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #111;
+  opacity: 0.7;
+}
+
+/* ===============================
+   RIGHT MEDIA (PHOTO + LOGO OVERLAY)
+=================================*/
+.petex-media{
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.10);
+  background: #f5f5f5;
+}
+
+.petex-photo{
+  width: 100%;
+  height: 480px;
+  /* object-fit: cover; */
+  display: block;
+}
+
+/* Logo sits over the image */
+.petex-logo{
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 130px;        /* adjust based on your logo */
+  height: auto;
+  background: rgba(255,255,255,0.92);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+
+/* ===============================
+   RESPONSIVE
+=================================*/
+@media (max-width: 1050px){
+  .petex-wrap{
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .petex-photo{
+    height: 420px;
+  }
+}
+
+@media (max-width: 560px){
+  .petex-title{ font-size: 26px; }
+  .petex-subtitle{ font-size: 18px; }
+  .petex-bullets p{ font-size: 16px; }
+
+  .petex-photo{ height: 340px; }
+  .petex-logo{
+    width: 110px;
+    left: 12px;
+    top: 12px;
+    padding: 8px;
+  }
+}
+
+
+/* ===============================
+   PETEX IMAGE STRIP (UPDATED)
+=================================*/
+.petex-strip {
+  grid-column: 1 / -1; 
+  margin-top: 40px;
+  display: grid;
+  /* Creates 4 equal columns */
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
+  align-items: stretch;
+}
+
+.petex-strip-item {
+  border-radius: 20px; 
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* The Single Images */
+.petex-strip-item img {
+  width: 100%;
+  height: 100%; /* Fill the grid cell height */
+  object-fit: cover;
+  display: block;
+}
+
+/* The Stacked Column Logic */
+.petex-strip-item.first-stack {
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* Two equal rows */
+  gap: 15px; /* Gap between the two stacked images */
+  background: transparent;
+  box-shadow: none; /* Shadow applies to images, not container */
+  overflow: visible;
+}
+
+.petex-strip-item.first-stack img {
+  border-radius: 20px; /* Apply radius to individual images in the stack */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  height: 100%; 
+}
+
+/* RESPONSIVE */
+@media (max-width: 1050px) {
+  .petex-strip {
+    grid-template-columns: repeat(2, 1fr); /* 2x2 grid on tablets */
+  }
+}
+
+@media (max-width: 560px) {
+  .petex-strip {
+    grid-template-columns: 1fr; /* Single column on mobile */
+  }
+  .petex-strip-item.first-stack {
+    grid-template-rows: repeat(2, 200px); /* Fixed height for mobile stack */
+  }
+  .petex-strip-item img {
+    height: 300px;
+  }
+}
+
+
+/* ===============================
+   RESPONSIVE
+=================================*/
+
+@media (max-width: 1100px){
+  .petex-strip{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 700px){
+  .petex-strip{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .petex-strip-item img{
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px){
+  .petex-strip{
+    grid-template-columns: 1fr;
+  }
+
+  .petex-strip-item img{
+    height: 220px;
+  }
+}
+
+
+/* ===============================
+   JOURNEY SECTION
+=================================*/
+.journey-page {
+  width: 100%;
+  background: #fff;
+  padding: 80px 0;
+}
+
+.journey-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+/* LEFT SIDE */
+.journey-left {
+  flex: 1; /* Gives slightly more space to the text */
+}
+
+.journey-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.journey-description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.journey-phases p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.journey-phases strong {
+  color: #6b6666;
+  font-weight: 800;
+}
+
+/* RIGHT SIDE */
+.journey-right {
+  flex: 0.8;
+}
+
+.journey-main-img {
+  padding-top: 90px;
+  width: 100%;
+  height: 250px;
+  /* object-fit: cover; */
+  /* border-radius: 8px; */
+  display: block;
+  /* box-shadow: 0 4px 20px rgba(0,0,0,0.05); */
+}
+
+.journey-right img {
+  height: 100%;
+}
+/* ===============================
+   RESPONSIVE (For Tablets/Mobile)
+=================================*/
+@media (max-width: 992px) {
+  .journey-wrap {
+    flex-direction: column; /* Stack image below text */
+    gap: 40px;
+  }
+  
+  .journey-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .journey-title {
+    font-size: 26px;
+  }
+  
+  .journey-description, .journey-phases p {
+    font-size: 16px;
+  }
+}
+
+.vet-button-row{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; /* responsive */
+}
+
+/* ===============================
+   BUTTON ROW SECTION
+=================================*/
+
+.vet-button-row {
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+/* Individual Button */
+.vet-btn {
+  display: inline-block;
+  min-width: 260px;          /* Equal width buttons */
+  padding: 18px 40px;
+  background-color: #2f2f2f; /* Dark background */
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Hover Effect */
+.vet-btn:hover {
+  background-color: #000000;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+/* Active Click Effect */
+.vet-btn:active {
+  transform: translateY(0px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ===============================
+   RESPONSIVE DESIGN
+=================================*/
+
+@media (max-width: 992px) {
+  .vet-button-row {
+    gap: 25px;
+  }
+
+  .vet-btn {
+    min-width: 220px;
+    padding: 16px 30px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .vet-button-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .vet-btn {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .vet-btn {
+    padding: 14px 20px;
+    font-size: 15px;
+  }
+}

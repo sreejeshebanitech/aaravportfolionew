@@ -1,0 +1,121 @@
+/* ===============================
+   SPORTS SECTION
+=================================*/
+.sports-section {
+    background: #e6e6e6;
+    padding: 120px 0;
+    width: 100%;
+}
+
+.sports-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    gap: 70px;
+    align-items: flex-start;
+}
+
+/* ===============================
+   IMAGE
+=================================*/
+.sports-image {
+    flex: 1;
+}
+
+.sports-image img {
+    width: 102%;
+    height: 675px;       /* Fill the container height */
+    /* object-fit: cover;  Prevents stretching/squishing */
+    display: block;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+}
+
+/* ===============================
+   CONTENT
+=================================*/
+.sports-content {
+    flex: 1.2;
+}
+
+.sports-content h2 {
+    font-size: 2.3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.sports-description {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 60px;
+}
+
+/* ===============================
+   CARDS
+=================================*/
+.sports-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.sports-card {
+    background: #ffffff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.sports-card-header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.sports-card-body {
+    padding: 30px 25px 35px;
+    text-align: center;
+}
+
+.sports-card-body p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+/* BUTTON */
+.sports-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: background 0.3s ease;
+}
+
+.sports-btn:hover {
+    background: #555;
+}
+
+/* ===============================
+   RESPONSIVE
+=================================*/
+@media (max-width: 992px) {
+    .sports-wrapper {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .sports-cards {
+        grid-template-columns: 1fr;
+    }
+}
