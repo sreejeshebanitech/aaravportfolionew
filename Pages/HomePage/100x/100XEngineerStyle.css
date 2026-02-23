@@ -56,7 +56,7 @@
 
 .engineers-image-large img {
   width: 100%;
-  height: 400px;
+  height: 360px;
   object-fit: cover;
   border-radius: 4px;
   background: #ddd;
@@ -72,7 +72,7 @@
 
 .engineers-image-small img {
   width: 100%;
-  height: 420px;
+  height: 360px;
   object-fit: cover;
   border-radius: 4px;
   background: #ddd;

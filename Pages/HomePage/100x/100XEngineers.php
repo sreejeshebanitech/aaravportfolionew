@@ -19,12 +19,12 @@
 
     <!-- TOP RIGHT LARGE IMAGE -->
     <div class="engineers-image-large">
-      <img src="image-1.jpg" alt="100x Engineers Session">
+      <img src="Assets/ImageAssets/100x/1.jpeg" alt="100x Engineers Session">
     </div>
 
     <!-- BOTTOM LEFT IMAGE -->
     <div class="engineers-image-small">
-      <img src="image-2.jpg" alt="100x Engineers Experience">
+      <img src="Assets/ImageAssets/100x/2.jpeg" alt="100x Engineers Experience">
     </div>
 
     <!-- BOTTOM RIGHT TEXT -->
