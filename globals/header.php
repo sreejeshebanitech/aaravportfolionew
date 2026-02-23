@@ -9,8 +9,8 @@
         <nav class="nav-menu" id="navMenu">
             <a href="index.php">Home</a>
             <!-- <a href="about.php">About</a> -->
-            <a href="tech.php">Tech</a>
-            <a href="sports.php">Sports</a>
+            <a href="index.php#tech">Tech</a>
+            <a href="index.php#sports">Sports</a>
             <a href="community.php">Community</a>
             <a href="Milestone.php">Recognition</a>
         </nav>
