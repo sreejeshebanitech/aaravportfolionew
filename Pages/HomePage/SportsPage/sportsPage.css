@@ -115,6 +115,14 @@
         gap: 60px;
     }
 
+     .sports-image img {
+        width: 100%;
+        height: auto;          /* Maintain aspect ratio */
+        object-fit: cover;
+    }
+
+    
+
     .sports-cards {
         grid-template-columns: 1fr;
     }
